@@ -48,8 +48,6 @@
   <noscript>This task requires JavaScript.</noscript>
 
   <div class="slide" id="i0" >
-    <!-- <img src="../_shared/images/cocologo.png" alt="Stanford CoCoLab" id="cocologo"></img> -->
-    <p id="cocolab">Stanford Linguistics</p>
     <p id="instruct-text">
       Welcome! <br>
       In this experiment, you will read 48 sentences word-by-word. For some of the sentences, you will also be asked to answer a short question. </p>
@@ -61,10 +59,9 @@
 
 		<h3>Instructions</h3>
     <p>On the following pages, you will always see a phrase masked with dashes (-). To read the sentence, please press the space bar which will reveal the next word. 
-			Once you've read the sentence, please answer the yes/no question that will appear on the screen.</p>
+			When a comprehension question appears on the screen, please indicate your answer by clicking on the button with the correct answer.</p>
 		
-		
-		<p><strong>Important</strong>: Please try to complete the experiment in one session without any interruptions. It should take at most 30mins.</p>
+		<p><strong>Important</strong>: Please try to complete the experiment in one session without any interruptions! It should take at most 30 minutes.</p>
 		
     <input type="button" class="button" value="Continue" onclick="exp.go();">
 		
@@ -88,24 +85,18 @@
 
   <div class="slide" id="subj_info">
     <div class="long_form">
-      <div class="subj_info_title">Additional information</div>
-    
+      <div class="subj_info_title">Optional Demographic Survey</div>
+      <p class="info">Answering these questions is optional.</p>
 
-      <p>What's your name?</p>
-      <input type="text" id="name" />
-
-      <p>How old are you?</p>
+      <p>Age:</p>
       <input type="text" id="age" />
 
-      <p>Please select your gender</p>
+      <p>Gender:</p>
       <select id="gender" name="gender">
         <label><option value="f">female</option></label>
         <label><option value="m" >male</option></label>
         <label><option value="o">non-binary</option></label>
       </select>
-
-      <p>Native Language: <input type="text" id="language"/></p>
-      <label>(the language(s) spoken at home when you were a child)</label>
 
       <p>How tired are you right now?</p>
       <select id="tirednesslvl" name="tirednesslvl">
@@ -121,7 +112,10 @@
   </div>
 
   <div id="thanks" class="slide js" >
-    <p  class="big" id="thanks-text">Thanks for your time!</p>
+    <p  class="big" id="thanks-text"> 
+      Thank you for participating! Your submission on Prolific will be approved within 5 business days. <br>
+      Please save your completion code: <b>PLACEHOLDER</b><br>
+      You may exit the window now.</p>
   </div>
 
   <div class="progress">
