@@ -97,3 +97,4 @@ Item,Condition,TargetPos,Sentence,Question,Correct,Incorrect,Adj1,Adj2
 48,UNGRAMM,0,"Care to ask, Aaron did the question.",,,,,
 49,PRACTICE1,0,"Very similar, but even more striking, is the evidence from athletic training.",,,,,
 50,PRACTICE2,0,"The girl's feet were then re-wrapped even tighter than before, causing her footprint to shrink further.",Were the wraps around the girl's feet tighter after they were re-wrapped?,Yes,No,,
+51,PRACTICE3,0,Lady Gaga's YouTube account was suspended Thursday.,What account was suspended on Thursday?,Lady Gaga's Youtube,Lady Gaga's Instagram,,

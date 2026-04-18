@@ -11587,5 +11587,60 @@ var fillers = [
     "adj2": "",
     "type": "filler",
     "trial_id": "filler_50_PRACTICE2"
+  },
+  {
+    "condition": "PRACTICE3",
+    "words": [
+      {
+        "form": "Lady",
+        "lbr_before": false,
+        "lbr_after": false,
+        "region": "0"
+      },
+      {
+        "form": "Gaga's",
+        "lbr_before": false,
+        "lbr_after": false,
+        "region": "0"
+      },
+      {
+        "form": "YouTube",
+        "lbr_before": false,
+        "lbr_after": false,
+        "region": "0"
+      },
+      {
+        "form": "account",
+        "lbr_before": false,
+        "lbr_after": false,
+        "region": "0"
+      },
+      {
+        "form": "was",
+        "lbr_before": false,
+        "lbr_after": false,
+        "region": "0"
+      },
+      {
+        "form": "suspended",
+        "lbr_before": false,
+        "lbr_after": false,
+        "region": "0"
+      },
+      {
+        "form": "Thursday.",
+        "lbr_before": false,
+        "lbr_after": false,
+        "region": "0"
+      }
+    ],
+    "question": "What account was suspended on Thursday?",
+    "correct_answer": "Lady Gaga's Youtube",
+    "incorrect_answer": "Lady Gaga's Instagram",
+    "target_pos": "0",
+    "adj1": "",
+    "adj2": "",
+    "type": "filler",
+    "trial_id": "filler_51_PRACTICE3"
   }
 ];
