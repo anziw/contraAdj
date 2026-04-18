@@ -7,12 +7,15 @@ function build_trials() {
     return Object.assign({}, sampled, { type: "critical" });
   });
 
+  var practice_conditions = ["PRACTICE1", "PRACTICE2", "PRACTICE3"];
+  var exp_fillers = fillers.filter(function(f) { return practice_conditions.indexOf(f.condition) === -1; });
+
   // Among PROVO fillers, randomly pick 8 to show comprehension questions
-  var provo_fillers = fillers.filter(function(f) { return f.condition === "PROVO"; });
+  var provo_fillers = exp_fillers.filter(function(f) { return f.condition === "PROVO"; });
   var provo_with_q  = provo_fillers.filter(function(f) { return f.question && f.question !== ""; });
   var sampled_q_ids = _.sample(provo_with_q, 8).map(function(f) { return f.trial_id; });
 
-  var tagged_fillers = fillers.map(function(f) {
+  var tagged_fillers = exp_fillers.map(function(f) {
     var has_q = f.condition === "PROVO" && sampled_q_ids.indexOf(f.trial_id) !== -1;
     return Object.assign({}, f, { has_question: has_q });
   });
@@ -24,8 +27,8 @@ function build_trials() {
 function make_slides(f) {
   var   slides = {};
 
-  slides.i0 = slide({
-     name : "i0",
+  slides.welcome = slide({
+     name : "welcome",
      start: function() {
       exp.startT = Date.now();
      }
@@ -45,27 +48,39 @@ function make_slides(f) {
     present_handle: function(stim) {
       this.stim = stim;
       this.position = 0;
-            
+
+      $("#trial-instruction, #stimulus-sentence").show();
       $("#comprehension-question").hide();
+      $("#trial-iti").hide();
+
+      var t = this;
+      t.show_iti = function() {
+        $("#trial-instruction, #stimulus-sentence, #comprehension-question").hide();
+        $("#trial-iti").show();
+        $(document).unbind("keydown");
+        $(document).bind("keydown", function(evt) {
+          if (evt.keyCode == 32 && !evt.originalEvent.repeat) {
+            evt.preventDefault();
+            $(document).unbind("keydown");
+            $("#trial-iti").hide();
+            $("#trial-instruction, #stimulus-sentence").show();
+            _stream.apply(t);
+          }
+        });
+      };
 
       var html = "";
-      
+
       for (var i = 0; i < stim.words.length; i++) {
         var word = stim.words[i];
         var masked_word = word.form.replace(/./g, "-") + " ";
         var word_ch = word.form.length + 1;
         html += "<span style=\"display:inline-block;width:" + word_ch + "ch\" data-form=\"" + word.form + " \" data-masked-form=\"" + masked_word + "\" id=\"stimulus-word-" + i + "\">" + masked_word + "</span>"
       }
-      
-      
-      this.response_times = [];
-      
-      $("#stimulus-sentence").html(html);
-      
-      
-      var t = this;
 
-      $("#comprehension-question").hide();
+      this.response_times = [];
+
+      $("#stimulus-sentence").html(html);
 
       $(document).bind("keydown", function(evt) {
         if (evt.keyCode == 32 && !evt.originalEvent.repeat) {
@@ -85,7 +100,7 @@ function make_slides(f) {
             } else {
               t.response_correct = null;
               t.log_responses();
-              _stream.apply(t);
+              t.show_iti();
             }
           }
         }
@@ -107,7 +122,7 @@ function make_slides(f) {
     button : function(response) {
       this.response_correct = response == this.stim.correct_answer;
       this.log_responses();
-      _stream.apply(this);
+      this.show_iti();
     },
 
     log_responses : function() {
@@ -132,6 +147,98 @@ function make_slides(f) {
 
   
 
+
+  slides["practice-start"] = slide({ name: "practice-start" });
+
+  slides.practice = slide({
+    name: "practice",
+    present: exp.practice_stims,
+    present_handle: function(stim) {
+      this.stim = stim;
+      this.position = 0;
+
+      var t = this;
+
+      $("#practice-reading").show();
+      $("#practice-comprehension-question").hide();
+      $("#practice-feedback").hide();
+      $("#practice-iti").hide();
+
+      t.show_iti = function() {
+        $("#practice-reading").hide();
+        $("#practice-comprehension-question").hide();
+        $("#practice-feedback").hide();
+        $("#practice-iti").show();
+        $(document).off("keydown.practice").on("keydown.practice", function(evt) {
+          if (evt.keyCode == 32 && !evt.originalEvent.repeat) {
+            evt.preventDefault();
+            $(document).off("keydown.practice");
+            $("#practice-iti").hide();
+            _stream.apply(t);
+          }
+        });
+      };
+
+      var html = "";
+      for (var i = 0; i < stim.words.length; i++) {
+        var word = stim.words[i];
+        var masked_word = word.form.replace(/./g, "-") + " ";
+        var word_ch = word.form.length + 1;
+        html += "<span style=\"display:inline-block;width:" + word_ch + "ch\" data-form=\"" + word.form + " \" data-masked-form=\"" + masked_word + "\" id=\"practice-word-" + i + "\">" + masked_word + "</span>";
+      }
+      $("#practice-stimulus-sentence").html(html);
+
+      $(document).off("keydown.practice").on("keydown.practice", function(evt) {
+        if (evt.keyCode == 32 && !evt.originalEvent.repeat) {
+          evt.preventDefault();
+          if (t.position > 0) {
+            var prev_idx = t.position - 1;
+            $("#practice-word-" + prev_idx).text($("#practice-word-" + prev_idx).data("masked-form"));
+          }
+          if (t.position < t.stim.words.length) {
+            $("#practice-word-" + t.position).text($("#practice-word-" + t.position).data("form"));
+            t.position++;
+          } else {
+            $(document).off("keydown.practice");
+            if (t.stim.question && t.stim.question !== "") {
+              $("#practice-question-q").text(t.stim.question);
+              var answers = _.shuffle([t.stim.correct_answer, t.stim.incorrect_answer]);
+              $("#practice-response-1").val(answers[0]);
+              $("#practice-response-2").val(answers[1]);
+              $("#practice-comprehension-question").show();
+            } else {
+              t.show_iti();
+            }
+          }
+        }
+      });
+
+      $("#practice-response-1, #practice-response-2").off("click.practice").on("click.practice", function() {
+        var response = $(this).val();
+        var correct = response === t.stim.correct_answer;
+        exp.catch_trials.push({
+          "trial_id": t.stim.trial_id,
+          "condition": t.stim.condition,
+          "question": t.stim.question,
+          "response": response,
+          "correct_answer": t.stim.correct_answer,
+          "response_correct": correct ? 1 : 0
+        });
+        $("#practice-reading").hide();
+        $("#practice-comprehension-question").hide();
+        var msg = correct
+          ? "Nice job! Your answer was correct."
+          : "Your answer was incorrect. Please read the sentences more carefully!";
+        $("#practice-feedback-text").text(msg).css("color", correct ? "green" : "red");
+        $("#practice-feedback").show();
+        $("#practice-feedback-continue").off("click.practice-cont").on("click.practice-cont", function() {
+          t.show_iti();
+        });
+      });
+    }
+  });
+
+  slides["practice-end"] = slide({ name: "practice-end" });
 
   slides.subj_info =  slide({
     name : "subj_info",
@@ -171,6 +278,9 @@ function init() {
   // exp.condition = condition;
   exp.trials = [];
   exp.catch_trials = [];
+  exp.practice_stims = fillers
+    .filter(function(f) { return ["PRACTICE1", "PRACTICE2", "PRACTICE3"].indexOf(f.condition) !== -1; })
+    .sort(function(a, b) { return a.condition < b.condition ? -1 : 1; });
   exp.train_stims = build_trials(); //can randomize between subject conditions here
   exp.system = {
       Browser : BrowserDetect.browser,
@@ -181,7 +291,7 @@ function init() {
       screenUW: exp.width
     };
   //blocks of the experiment:
-  exp.structure=["i0",  "instructions", "trial", 'subj_info', 'thanks'];
+  exp.structure=["welcome", "instructions", "practice-start", "practice", "practice-end", "trial", "subj_info", "thanks"];
 
   exp.data_trials = [];
   //make corresponding slides:

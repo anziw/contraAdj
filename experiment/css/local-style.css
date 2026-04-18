@@ -50,3 +50,26 @@ p.train-instructions {
   margin-top: 65px;
 }
 
+#welcome,
+#instructions,
+#practice-start,
+#practice-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 120px;
+  box-sizing: border-box;
+}
+
+#practice-feedback-text {
+  margin-bottom: 30px;
+}
+
+.iti-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+

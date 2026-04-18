@@ -47,11 +47,13 @@
 <body onload="init();">
   <noscript>This task requires JavaScript.</noscript>
 
-  <div class="slide" id="i0" >
+  <div class="slide" id="welcome" >
     <p id="instruct-text">
       Welcome!</p>
       
       <p>In this experiment, you will read 48 sentences word-by-word. For some of the sentences, you will also be asked to answer a short question. </p>
+
+      <p> Please pay attention while you read the sentences and try to get the answers right!</p>
     <input id="start_button" type="button" class="button" value="Start Experiment">
   </div>
 
@@ -59,7 +61,7 @@
   <div class="slide" id="instructions">
 
 		<h3>Instructions</h3>
-    <p>On the following pages, you will always see a phrase masked with dashes (-). To read the sentence, please press the space bar which will reveal the next word. 
+    <p>On the following pages, you will always see a sentence masked with dashes (-). To read the sentence, please press the space bar which will reveal the next word. 
 			When a comprehension question appears on the screen, please indicate your answer by clicking on the button with the correct answer.</p>
 		
 		<p><strong>Important</strong>: Please try to complete the experiment in one session without any interruptions! It should take at most 30 minutes.</p>
@@ -68,20 +70,68 @@
 		
   </div>
 
-  <div class="slide" id="trial">
+
+  <div class="slide" id="practice-start">
+
+		<p>Let's start with a few practice trials! </p>
+
+    <p>In some of these trials, we will ask you a comprehension question to make sure that you are paying attention during the experiment.</p>
     
-		<p>Please read the following sentence by pressing the space bar to reveal each word.</p>
-		<p style="font-family:monospace; margin-top:145px;font-size:18px;" id="stimulus-sentence"></p>
+    <p>In the practice trials, we will let you know if your answers are correct. There will be no feedback during the actual experiment. </p>
+
+    <input type="button" class="button" value="Continue" onclick="exp.go();">
 		
+  </div>
 
-<div id="comprehension-question">
+  <div class="slide" id="practice">
 
-			<p id="comprehension-question-q" class="question"></p>
+    <div id="practice-reading">
+      <p>Please read the following sentence by pressing the space bar to reveal each word.</p>
+      <p style="font-family:monospace; margin-top:145px;font-size:18px;" id="practice-stimulus-sentence"></p>
+    </div>
+
+    <div id="practice-comprehension-question" style="display:none;">
+      <p id="practice-question-q" class="question"></p>
+      <input type="button" value="" id="practice-response-1" class="button">
+      <input type="button" value="" id="practice-response-2" class="button">
+    </div>
+
+    <div id="practice-feedback" style="display:none; margin-top:200px; text-align:center;">
+      <p id="practice-feedback-text"></p>
+      <input type="button" class="button" value="Continue" id="practice-feedback-continue">
+    </div>
+
+    <div id="practice-iti" class="iti-screen" style="display:none;">
+      <p>Please press space to continue.</p>
+    </div>
+
+  </div>
+
+  <div class="slide" id="practice-end">
+
+		<p>That was the practice!</p>
+
+    <p>Everything in the actual experiment will look the same, except that there will be no feedback on the comprehension questions. Have fun!</p>
+
+    <input type="button" class="button" value="Proceed to experiment" onclick="exp.go();">
+		
+  </div>
+
+  <div class="slide" id="trial">
+
+    <p id="trial-instruction">Please read the following sentence by pressing the space bar to reveal each word.</p>
+    <p style="font-family:monospace; margin-top:145px;font-size:18px;" id="stimulus-sentence"></p>
+
+    <div id="comprehension-question">
+      <p id="comprehension-question-q" class="question"></p>
       <input type="button" value="Yes" id="test-response-1" class="response-buttons button">
       <input type="button" value="No" id="test-response-2" class="response-buttons button">
-		</div>
-		
-		
+    </div>
+
+    <div id="trial-iti" class="iti-screen" style="display:none;">
+      <p>Please press space to continue.</p>
+    </div>
+
   </div>
 
   <div class="slide" id="subj_info">
