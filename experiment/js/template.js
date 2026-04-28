@@ -82,7 +82,9 @@ function make_slides(f) {
         var word = stim.words[i];
         var masked_word = word.form.replace(/./g, "-") + " ";
         var word_ch = word.form.length + 1;
-        html += "<span style=\"display:inline-block;width:" + word_ch + "ch\" data-form=\"" + word.form + " \" data-masked-form=\"" + masked_word + "\" id=\"stimulus-word-" + i + "\">" + masked_word + "</span>"
+        if (word.lbr_before) html += "<br>";
+        html += "<span style=\"display:inline-block;width:" + word_ch + "ch\" data-form=\"" + word.form + " \" data-masked-form=\"" + masked_word + "\" id=\"stimulus-word-" + i + "\">" + masked_word + "</span>";
+        if (word.lbr_after) html += "<br>";
       }
 
       this.response_times = [];
@@ -191,7 +193,9 @@ function make_slides(f) {
         var word = stim.words[i];
         var masked_word = word.form.replace(/./g, "-") + " ";
         var word_ch = word.form.length + 1;
+        if (word.lbr_before) html += "<br>";
         html += "<span style=\"display:inline-block;width:" + word_ch + "ch\" data-form=\"" + word.form + " \" data-masked-form=\"" + masked_word + "\" id=\"practice-word-" + i + "\">" + masked_word + "</span>";
+        if (word.lbr_after) html += "<br>";
       }
       $("#practice-stimulus-sentence").html(html);
 

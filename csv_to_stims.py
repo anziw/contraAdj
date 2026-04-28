@@ -6,7 +6,7 @@ import json
 import sys
 from collections import defaultdict
 
-def tokenize(sentence, target_pos=None):
+def tokenize(sentence, target_pos=None, condition=None):
     """Split sentence into word objects with lbr flags."""
     words = sentence.strip().split()
     target_idx = int(target_pos) - 1 if target_pos and int(target_pos) != 0 else None
@@ -27,10 +27,12 @@ def tokenize(sentence, target_pos=None):
                 region = "0"
         else:
             region = "0"
+        lbr_before = bool(condition and condition.startswith("NEW-") and target_idx is not None and i == target_idx)
+        lbr_after = bool(condition and condition.startswith("NEW-") and target_idx is not None and i == target_idx - 1)
         result.append({
             "form": w,
-            "lbr_before": False,
-            "lbr_after": False,
+            "lbr_before": lbr_before,
+            "lbr_after": lbr_after,
             "region": region
         })
     return result
@@ -39,7 +41,7 @@ def build_trial(row, trial_type):
     """Build a single trial object from a CSV row."""
     return {
         "condition": row["Condition"],
-        "words": tokenize(row["Sentence"], row["TargetPos"]),
+        "words": tokenize(row["Sentence"], row["TargetPos"], row["Condition"]),
         "question": row["Question"],
         "correct_answer": row["Correct"],
         "incorrect_answer": row["Incorrect"],
