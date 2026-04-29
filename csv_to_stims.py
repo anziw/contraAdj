@@ -27,8 +27,8 @@ def tokenize(sentence, target_pos=None, condition=None):
                 region = "0"
         else:
             region = "0"
-        lbr_before = bool(condition and condition.startswith("NEW-") and target_idx is not None and i == target_idx)
-        lbr_after = bool(condition and condition.startswith("NEW-") and target_idx is not None and i == target_idx - 1)
+        lbr_before = bool(condition and condition.startswith("NEW-") and target_idx is not None and i == target_idx - 2)
+        lbr_after = bool(condition and condition.startswith("NEW-") and target_idx is not None and i == target_idx - 3)
         result.append({
             "form": w,
             "lbr_before": lbr_before,

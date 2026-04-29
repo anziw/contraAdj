@@ -312,24 +312,24 @@ var critical_items = [
           {
             "form": "big,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "round,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "wooden,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "dirty",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -439,24 +439,24 @@ var critical_items = [
           {
             "form": "clean,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "round,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "wooden,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "dirty",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -861,24 +861,24 @@ var critical_items = [
           {
             "form": "tall,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "tropical,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "potted,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "alive",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -1000,24 +1000,24 @@ var critical_items = [
           {
             "form": "dead,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "tropical,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "potted,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "alive",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -1404,24 +1404,24 @@ var critical_items = [
           {
             "form": "fresh,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "thick,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "creamy,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "cold",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -1537,24 +1537,24 @@ var critical_items = [
           {
             "form": "hot,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "thick,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "creamy,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "cold",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -1977,24 +1977,24 @@ var critical_items = [
           {
             "form": "dark,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "narrow,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "carpeted,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "long",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -2122,24 +2122,24 @@ var critical_items = [
           {
             "form": "short,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "narrow,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "carpeted,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "long",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -2526,24 +2526,24 @@ var critical_items = [
           {
             "form": "tall,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "rocky,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "green,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "far",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -2659,24 +2659,24 @@ var critical_items = [
           {
             "form": "nearby,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "rocky,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "green,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "far",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -3027,24 +3027,24 @@ var critical_items = [
           {
             "form": "short,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "lean,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "young,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "weak",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -3148,24 +3148,24 @@ var critical_items = [
           {
             "form": "strong,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "lean,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "young,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "weak",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -3552,24 +3552,24 @@ var critical_items = [
           {
             "form": "stale,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "round,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "brown,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "hard",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -3685,24 +3685,24 @@ var critical_items = [
           {
             "form": "soft,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "round,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "brown,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "hard",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -4107,24 +4107,24 @@ var critical_items = [
           {
             "form": "long,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "written,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "formal,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "difficult",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -4246,24 +4246,24 @@ var critical_items = [
           {
             "form": "easy,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "written,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "formal,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "difficult",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -4650,24 +4650,24 @@ var critical_items = [
           {
             "form": "old,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "urban,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "diverse,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "dangerous",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -4783,24 +4783,24 @@ var critical_items = [
           {
             "form": "safe,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "urban,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "diverse,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "dangerous",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -5187,24 +5187,24 @@ var critical_items = [
           {
             "form": "old,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "fluffy,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "ginger,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "sick",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -5320,24 +5320,24 @@ var critical_items = [
           {
             "form": "healthy,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "fluffy,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "ginger,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "sick",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -5742,24 +5742,24 @@ var critical_items = [
           {
             "form": "clean,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "thick,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "white,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "wet",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -5881,24 +5881,24 @@ var critical_items = [
           {
             "form": "dry,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "thick,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "white,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "wet",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -6285,24 +6285,24 @@ var critical_items = [
           {
             "form": "grey,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "oval,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "speckled,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "rough",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -6418,24 +6418,24 @@ var critical_items = [
           {
             "form": "smooth,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "oval,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "speckled,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "rough",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -6822,24 +6822,24 @@ var critical_items = [
           {
             "form": "small,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "white,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "fresh,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "cracked",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -6955,24 +6955,24 @@ var critical_items = [
           {
             "form": "whole,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "white,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "fresh,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "cracked",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -7359,24 +7359,24 @@ var critical_items = [
           {
             "form": "tired,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "large,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "brown,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "hungry",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -7492,24 +7492,24 @@ var critical_items = [
           {
             "form": "satiated,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "large,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "brown,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "hungry",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -7878,24 +7878,24 @@ var critical_items = [
           {
             "form": "narrow,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "paved,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "long,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "curved",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -8005,24 +8005,24 @@ var critical_items = [
           {
             "form": "straight,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "paved,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "long,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "curved",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -8391,24 +8391,24 @@ var critical_items = [
           {
             "form": "small,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "local,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "quiet,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "open",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -8518,24 +8518,24 @@ var critical_items = [
           {
             "form": "closed,",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "local,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
             "form": "quiet,",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "open",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
           },
@@ -8847,9 +8847,9 @@ var fillers = [
         "region": "0"
       }
     ],
-    "question": "Who hates the bill most?",
-    "correct_answer": "Farmers",
-    "incorrect_answer": "Construction workers",
+    "question": "Was there a bill drafted?",
+    "correct_answer": "Yes",
+    "incorrect_answer": "No",
     "target_pos": "0",
     "adj1": "",
     "adj2": "",
@@ -8980,9 +8980,9 @@ var fillers = [
         "region": "0"
       }
     ],
-    "question": "At which point are people resistent to a wider range of temperature?",
-    "correct_answer": "When exercising",
-    "incorrect_answer": "When sleeping",
+    "question": "Can the human body tolerate a wide range of temperature?",
+    "correct_answer": "No",
+    "incorrect_answer": "Yes",
     "target_pos": "0",
     "adj1": "",
     "adj2": "",

@@ -10,13 +10,8 @@ function build_trials() {
   var practice_conditions = ["PRACTICE1", "PRACTICE2", "PRACTICE3"];
   var exp_fillers = fillers.filter(function(f) { return practice_conditions.indexOf(f.condition) === -1; });
 
-  // Among PROVO fillers, randomly pick 8 to show comprehension questions
-  var provo_fillers = exp_fillers.filter(function(f) { return f.condition === "PROVO"; });
-  var provo_with_q  = provo_fillers.filter(function(f) { return f.question && f.question !== ""; });
-  var sampled_q_ids = _.sample(provo_with_q, 8).map(function(f) { return f.trial_id; });
-
   var tagged_fillers = exp_fillers.map(function(f) {
-    var has_q = f.condition === "PROVO" && sampled_q_ids.indexOf(f.trial_id) !== -1;
+    var has_q = f.condition === "PROVO" && f.question && f.question !== "";
     return Object.assign({}, f, { has_question: has_q });
   });
 

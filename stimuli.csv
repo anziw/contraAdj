@@ -64,8 +64,8 @@ Item,Condition,TargetPos,Sentence,Question,Correct,Incorrect,Adj1,Adj2
 16,NEW-NOCON,14,"The exam that was handed out in the morning is long, written, formal, difficult and very detailed, according to the teacher.",,,,long,difficult
 16,NEW-CON,14,"The exam that was handed out in the morning is easy, written, formal, difficult and very detailed, according to the teacher.",,,,easy,difficult
 17,PROVO,0,"There are now rumblings that Apple might soon invade the smart watch space, though the company is maintaining its customary silence.",Which market is Apple rumored to enter?,Smart watches,Self-driving cars,,
-18,PROVO,0,"A bill was drafted and introduced into Parliament several times but met with great opposition, mostly from farmers.",Who hates the bill most?,Farmers,Construction workers,,
-19,PROVO,0,"The human body can tolerate only a small range of temperature, especially when the person is engaged in vigorous activity.",At which point are people resistent to a wider range of temperature?,When exercising,When sleeping,,
+18,PROVO,0,"A bill was drafted and introduced into Parliament several times but met with great opposition, mostly from farmers.",Was there a bill drafted?,Yes,No,,
+19,PROVO,0,"The human body can tolerate only a small range of temperature, especially when the person is engaged in vigorous activity.",Can the human body tolerate a wide range of temperature?,No,Yes,,
 20,PROVO,0,"Seeing Peter slowly advancing upon him through the air with dagger poised, he sprang upon the bulwarks to cast himself into the sea.",Did the man escape Peter's attempt to attack?,Yes,No,,
 21,PROVO,0,"Some months later, Michael Larson saw another opportunity to stack the odds in his favor with a dash of ingenuity.",Did Larson see more than one opportunity?,Yes,No,,
 22,PROVO,0,"Bob Murphy, the Senior PGA Tour money leader with seven hundred thousand, says heat shouldn't be a factor.",Is the leader cocnered about the heat?,No,Yes,,
