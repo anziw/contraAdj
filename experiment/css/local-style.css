@@ -50,6 +50,12 @@ p.train-instructions {
   margin-top: 65px;
 }
 
+#stimulus-sentence br,
+#practice-stimulus-sentence br {
+  font-size: 0;
+  line-height: 0;
+}
+
 #welcome,
 #instructions,
 #practice-start,
