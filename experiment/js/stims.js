@@ -14,13 +14,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "table",
+            "form": "table,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -62,7 +62,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "heavy",
+            "form": "heavy,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -135,13 +135,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "table",
+            "form": "table,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -183,7 +183,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "heavy",
+            "form": "heavy,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -256,13 +256,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "table",
+            "form": "table,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -286,7 +286,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "people",
+            "form": "people,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -294,18 +294,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "big,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "round,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -377,13 +377,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "table",
+            "form": "table,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -407,7 +407,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "people",
+            "form": "people,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -415,18 +415,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "clean,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "round,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -503,13 +503,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "mountain",
+            "form": "mountain,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -551,7 +551,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "rocky",
+            "form": "rocky,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -630,13 +630,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "mountain",
+            "form": "mountain,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -678,7 +678,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "rocky",
+            "form": "rocky,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -757,13 +757,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "mountain",
+            "form": "mountain,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -793,7 +793,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "village",
+            "form": "village,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -801,18 +801,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "tall,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "green,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -884,13 +884,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "mountain",
+            "form": "mountain,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -920,7 +920,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "village",
+            "form": "village,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -928,18 +928,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "nearby,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "green,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -1016,13 +1016,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "fighter",
+            "form": "fighter,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1064,7 +1064,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "handsome",
+            "form": "handsome,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -1131,13 +1131,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "fighter",
+            "form": "fighter,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1179,7 +1179,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "handsome",
+            "form": "handsome,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -1246,13 +1246,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "fighter",
+            "form": "fighter,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1270,7 +1270,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "ring",
+            "form": "ring,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1278,18 +1278,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "short,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "young,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -1361,13 +1361,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "fighter",
+            "form": "fighter,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1385,7 +1385,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "ring",
+            "form": "ring,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1393,18 +1393,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "strong,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "young,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -1481,13 +1481,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "exam",
+            "form": "exam,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1529,7 +1529,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "detailed",
+            "form": "detailed,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -1614,13 +1614,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "exam",
+            "form": "exam,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1662,7 +1662,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "detailed",
+            "form": "detailed,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -1747,13 +1747,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "exam",
+            "form": "exam,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1789,7 +1789,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "morning",
+            "form": "morning,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1797,18 +1797,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "long,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "formal,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -1880,13 +1880,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "exam",
+            "form": "exam,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1922,7 +1922,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "morning",
+            "form": "morning,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1930,18 +1930,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "easy,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "formal,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -2018,13 +2018,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "neighborhood",
+            "form": "neighborhood,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2066,7 +2066,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "diverse",
+            "form": "diverse,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -2145,13 +2145,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "neighborhood",
+            "form": "neighborhood,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2193,7 +2193,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "diverse",
+            "form": "diverse,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -2272,13 +2272,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "neighborhood",
+            "form": "neighborhood,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2308,7 +2308,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "river",
+            "form": "river,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2316,18 +2316,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "old,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "urban,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -2399,13 +2399,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "neighborhood",
+            "form": "neighborhood,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2435,7 +2435,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "river",
+            "form": "river,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2443,18 +2443,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "safe,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "urban,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -2531,13 +2531,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "cat",
+            "form": "cat,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2579,7 +2579,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "thin",
+            "form": "thin,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -2658,13 +2658,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "cat",
+            "form": "cat,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2706,7 +2706,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "thin",
+            "form": "thin,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -2785,13 +2785,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "cat",
+            "form": "cat,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2821,7 +2821,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "street",
+            "form": "street,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2829,18 +2829,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "old,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "ginger,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -2912,13 +2912,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "cat",
+            "form": "cat,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2948,7 +2948,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "street",
+            "form": "street,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2956,18 +2956,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "healthy,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "ginger,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -3044,13 +3044,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "towel",
+            "form": "towel,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -3092,7 +3092,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "thick",
+            "form": "thick,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -3177,13 +3177,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "towel",
+            "form": "towel,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -3225,7 +3225,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "thick",
+            "form": "thick,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -3310,13 +3310,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "towel",
+            "form": "towel,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -3352,7 +3352,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "floor",
+            "form": "floor,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -3360,18 +3360,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "clean,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "white,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -3443,13 +3443,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "towel",
+            "form": "towel,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -3485,7 +3485,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "floor",
+            "form": "floor,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -3493,18 +3493,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "dry,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "white,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -3581,13 +3581,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "egg",
+            "form": "egg,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -3629,7 +3629,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "fragile",
+            "form": "fragile,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -3708,13 +3708,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "egg",
+            "form": "egg,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -3756,7 +3756,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "fragile",
+            "form": "fragile,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -3835,13 +3835,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "egg",
+            "form": "egg,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -3871,7 +3871,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "carton",
+            "form": "carton,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -3879,18 +3879,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "small,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "fresh,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -3962,13 +3962,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "egg",
+            "form": "egg,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -3998,7 +3998,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "carton",
+            "form": "carton,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4006,18 +4006,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "whole,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "fresh,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -4094,13 +4094,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "dog",
+            "form": "dog,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4142,7 +4142,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "loud",
+            "form": "loud,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -4221,13 +4221,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "dog",
+            "form": "dog,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4269,7 +4269,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "loud",
+            "form": "loud,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -4333,7 +4333,7 @@ var critical_items = [
         "correct_answer": "",
         "incorrect_answer": "",
         "target_pos": "7",
-        "adj1": "satiated",
+        "adj1": "full",
         "adj2": "hungry",
         "type": "critical",
         "trial_id": "critical_6_OLD-CON"
@@ -4348,13 +4348,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "dog",
+            "form": "dog,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4384,7 +4384,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "fireplace",
+            "form": "fireplace,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4392,18 +4392,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "tired,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "large,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -4475,13 +4475,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "dog",
+            "form": "dog,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4511,7 +4511,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "fireplace",
+            "form": "fireplace,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4519,18 +4519,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "full,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "large,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -4587,7 +4587,7 @@ var critical_items = [
         "correct_answer": "",
         "incorrect_answer": "",
         "target_pos": "12",
-        "adj1": "satiated",
+        "adj1": "full",
         "adj2": "hungry",
         "type": "critical",
         "trial_id": "critical_6_NEW-CON"
@@ -4607,13 +4607,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "road",
+            "form": "road,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4655,7 +4655,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "steep",
+            "form": "steep,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -4728,13 +4728,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "road",
+            "form": "road,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4776,7 +4776,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "steep",
+            "form": "steep,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -4849,13 +4849,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "road",
+            "form": "road,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4879,7 +4879,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "mountain",
+            "form": "mountain,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4887,18 +4887,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "narrow,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "long,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -4970,13 +4970,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "road",
+            "form": "road,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5000,7 +5000,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "mountain",
+            "form": "mountain,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5008,18 +5008,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "straight,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "long,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -5096,13 +5096,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "shop",
+            "form": "shop,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5144,7 +5144,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "quiet",
+            "form": "quiet,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -5217,13 +5217,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "shop",
+            "form": "shop,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5265,7 +5265,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "quiet",
+            "form": "quiet,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -5338,13 +5338,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "shop",
+            "form": "shop,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5368,7 +5368,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "corner",
+            "form": "corner,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5376,18 +5376,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "small,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "local,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -5459,13 +5459,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "shop",
+            "form": "shop,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5489,7 +5489,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "corner",
+            "form": "corner,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5497,18 +5497,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "closed,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "local,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -5585,13 +5585,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "soup",
+            "form": "soup,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5633,7 +5633,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "delicious",
+            "form": "delicious,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -5712,13 +5712,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "soup",
+            "form": "soup,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5760,7 +5760,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "delicious",
+            "form": "delicious,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -5839,13 +5839,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "soup",
+            "form": "soup,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5875,7 +5875,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "table",
+            "form": "table,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5883,18 +5883,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "fresh,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "creamy,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
@@ -5966,13 +5966,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "soup",
+            "form": "soup,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "that",
+            "form": "which",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6002,7 +6002,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "table",
+            "form": "table,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6010,18 +6010,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": true,
+            "lbr_after": false,
             "region": "contrast"
           },
           {
             "form": "hot,",
-            "lbr_before": true,
-            "lbr_after": false,
+            "lbr_before": false,
+            "lbr_after": true,
             "region": "0"
           },
           {
             "form": "creamy,",
-            "lbr_before": false,
+            "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },

@@ -1,52 +1,52 @@
 Item,Condition,TargetPos,GEP_start,GEP_end,Sentence,Question,Correct,Incorrect,Adj1,Adj2
-1,OLD-NOCON,7,3,10,"The table that is big, round, dirty and very heavy can hold three people, according to the server.",,,,big,dirty
-1,OLD-CON,7,3,10,"The table that is clean, round, dirty and very heavy can hold three people, according to the server.",,,,clean,dirty
-1,NEW-NOCON,11,3,7,"The table that can hold three people is big, round, dirty and very heavy, according to the server. ",,,,big,dirty
-1,NEW-CON,11,3,7,"The table that can hold three people is clean, round, dirty and very heavy, according to the server. ",,,,clean,dirty
-2,OLD-NOCON,7,3,10,"The neighborhood that is old, urban, dangerous and very diverse is close to the river, according to the resident.",,,,old,dangerous
-2,OLD-CON,7,3,10,"The neighborhood that is safe, urban, dangerous and very diverse is close to the river, according to the resident.",,,,safe,dangerous
-2,NEW-NOCON,12,3,8,"The neighborhood that is close to the river is old, urban, dangerous and very diverse, according to the resident.",,,,old,dangerous
-2,NEW-CON,12,3,8,"The neighborhood that is close to the river is safe, urban, dangerous and very diverse, according to the resident.",,,,safe,dangerous
-3,OLD-NOCON,7,3,10,"The cat that is old, ginger, sick and very thin was found wandering the street, according to the shelter.",,,,old,sick
-3,OLD-CON,7,3,10,"The cat that is healthy, ginger, sick and very thin was found wandering the street, according to the shelter.",,,,healthy,sick
-3,NEW-NOCON,12,3,8,"The cat that was found wandering the street is old, ginger, sick and very thin, according to the shelter.",,,,old,sick
-3,NEW-CON,12,3,8,"The cat that was found wandering the street is healthy, ginger, sick and very thin, according to the shelter.",,,,healthy,sick
-4,OLD-NOCON,7,3,10,"The towel that is clean, white, wet and very thick was left on the bathroom floor, according to the guest.",,,,clean,wet
-4,OLD-CON,7,3,10,"The towel that is dry, white, wet and very thick was left on the bathroom floor, according to the guest.",,,,dry,wet
-4,NEW-NOCON,13,3,9,"The towel that was left on the bathroom floor is clean, white, wet and very thick, according to the guest.",,,,clean,wet
-4,NEW-CON,13,3,9,"The towel that was left on the bathroom floor is dry, white, wet and very thick, according to the guest.",,,,dry,wet
-5,OLD-NOCON,7,3,10,"The egg that is small, fresh, cracked and very fragile was taken from the carton, according to the chef.",,,,small,cracked
-5,OLD-CON,7,3,10,"The egg that is whole, fresh, cracked and very fragile was taken from the carton, according to the chef.",,,,whole,cracked
-5,NEW-NOCON,12,3,8,"The egg that was taken from the carton is small, fresh, cracked and very fragile, according to the chef.",,,,small,cracked
-5,NEW-CON,12,3,8,"The egg that was taken from the carton is whole, fresh, cracked and very fragile, according to the chef.",,,,whole,cracked
-6,OLD-NOCON,7,3,10,"The dog that is tired, large, hungry and very loud was lying by the fireplace, according to the owner.",,,,tired,hungry
-6,OLD-CON,7,3,10,"The dog that is full, large, hungry and very loud was lying by the fireplace, according to the owner.",,,,satiated,hungry
-6,NEW-NOCON,12,3,8,"The dog that was lying by the fireplace is tired, large, hungry and very loud, according to the owner. ",,,,tired,hungry
-6,NEW-CON,12,3,8,"The dog that was lying by the fireplace is full, large, hungry and very loud, according to the owner. ",,,,satiated,hungry
-7,OLD-NOCON,7,3,10,"The road that is narrow, long, curved and very steep cuts through the mountain, according to the driver.",,,,narrow,curved
-7,OLD-CON,7,3,10,"The road that is straight, long, curved and very steep cuts through the mountain, according to the driver.",,,,straight,curved
-7,NEW-NOCON,11,3,7,"The road that cuts through the mountain is narrow, long, curved and very steep, according to the driver. ",,,,narrow,curved
-7,NEW-CON,11,3,7,"The road that cuts through the mountain is straight, long, curved and very steep, according to the driver. ",,,,straight,curved
-8,OLD-NOCON,7,3,10,"The shop that is small, local, open and very quiet sits on the corner, according to the postman.",,,,small,open
-8,OLD-CON,7,3,10,"The shop that is closed, local, open and very quiet sits on the corner, according to the postman.",,,,closed,open
-8,NEW-NOCON,11,3,7,"The shop that sits on the corner is small, local, open and very quiet, according to the postman.",,,,small,open
-8,NEW-CON,11,3,7,"The shop that sits on the corner is closed, local, open and very quiet, according to the postman.",,,,closed,open
-9,OLD-NOCON,7,3,10,"The soup that is fresh, creamy, cold and very delicious was served at the table, according to the waiter.",,,,fresh,cold
-9,OLD-CON,7,3,10,"The soup that is hot, creamy, cold and very delicious was served at the table, according to the waiter.",,,,hot,cold
-9,NEW-NOCON,12,3,8,"The soup that was served at the table is fresh, creamy, cold and very delicious, according to the waiter.",,,,fresh,cold
-9,NEW-CON,12,3,8,"The soup that was served at the table is hot, creamy, cold and very delicious, according to the waiter.",,,,hot,cold
-10,OLD-NOCON,7,3,10,"The mountain that is tall, green, far and very rocky was spotted from the village, according to the guide.",,,,tall,far
-10,OLD-CON,7,3,10,"The mountain that is nearby, green, far and very rocky was spotted from the village, according to the guide.",,,,nearby,far
-10,NEW-NOCON,12,3,8,"The mountain that was spotted from the village is tall, green, far and very rocky, according to the guide.",,,,tall,far
-10,NEW-CON,12,3,8,"The mountain that was spotted from the village is nearby, green, far and very rocky, according to the guide.",,,,nearby,far
-11,OLD-NOCON,7,3,10,"The fighter that is short, young, weak and very handsome entered the ring, according to the referee.",,,,short,weak
-11,OLD-CON,7,3,10,"The fighter that is strong, young, weak and very handsome entered the ring, according to the referee.",,,,strong,weak
-11,NEW-NOCON,10,3,6,"The fighter that entered the ring is short, young, weak and very handsome, according to the referee.",,,,short,weak
-11,NEW-CON,10,3,6,"The fighter that entered the ring is strong, young, weak and very handsome, according to the referee.",,,,strong,weak
-12,OLD-NOCON,7,3,10,"The exam that is long, formal, difficult and very detailed was handed out in the morning, according to the teacher.",,,,long,difficult
-12,OLD-CON,7,3,10,"The exam that is easy, formal, difficult and very detailed was handed out in the morning, according to the teacher.",,,,easy,difficult
-12,NEW-NOCON,13,3,9,"The exam that was handed out in the morning is long, formal, difficult and very detailed, according to the teacher.",,,,long,difficult
-12,NEW-CON,13,3,9,"The exam that was handed out in the morning is easy, formal, difficult and very detailed, according to the teacher.",,,,easy,difficult
+1,OLD-NOCON,7,3,10,"The table, which is big, round, dirty and very heavy, can hold three people, according to the server.",,,,big,dirty
+1,OLD-CON,7,3,10,"The table, which is clean, round, dirty and very heavy, can hold three people, according to the server.",,,,clean,dirty
+1,NEW-NOCON,11,3,7,"The table, which can hold three people, is big, round, dirty and very heavy, according to the server. ",,,,big,dirty
+1,NEW-CON,11,3,7,"The table, which can hold three people, is clean, round, dirty and very heavy, according to the server. ",,,,clean,dirty
+2,OLD-NOCON,7,3,10,"The neighborhood, which is old, urban, dangerous and very diverse, is close to the river, according to the resident.",,,,old,dangerous
+2,OLD-CON,7,3,10,"The neighborhood, which is safe, urban, dangerous and very diverse, is close to the river, according to the resident.",,,,safe,dangerous
+2,NEW-NOCON,12,3,8,"The neighborhood, which is close to the river, is old, urban, dangerous and very diverse, according to the resident.",,,,old,dangerous
+2,NEW-CON,12,3,8,"The neighborhood, which is close to the river, is safe, urban, dangerous and very diverse, according to the resident.",,,,safe,dangerous
+3,OLD-NOCON,7,3,10,"The cat, which is old, ginger, sick and very thin, was found wandering the street, according to the shelter.",,,,old,sick
+3,OLD-CON,7,3,10,"The cat, which is healthy, ginger, sick and very thin, was found wandering the street, according to the shelter.",,,,healthy,sick
+3,NEW-NOCON,12,3,8,"The cat, which was found wandering the street, is old, ginger, sick and very thin, according to the shelter.",,,,old,sick
+3,NEW-CON,12,3,8,"The cat, which was found wandering the street, is healthy, ginger, sick and very thin, according to the shelter.",,,,healthy,sick
+4,OLD-NOCON,7,3,10,"The towel, which is clean, white, wet and very thick, was left on the bathroom floor, according to the guest.",,,,clean,wet
+4,OLD-CON,7,3,10,"The towel, which is dry, white, wet and very thick, was left on the bathroom floor, according to the guest.",,,,dry,wet
+4,NEW-NOCON,13,3,9,"The towel, which was left on the bathroom floor, is clean, white, wet and very thick, according to the guest.",,,,clean,wet
+4,NEW-CON,13,3,9,"The towel, which was left on the bathroom floor, is dry, white, wet and very thick, according to the guest.",,,,dry,wet
+5,OLD-NOCON,7,3,10,"The egg, which is small, fresh, cracked and very fragile, was taken from the carton, according to the chef.",,,,small,cracked
+5,OLD-CON,7,3,10,"The egg, which is whole, fresh, cracked and very fragile, was taken from the carton, according to the chef.",,,,whole,cracked
+5,NEW-NOCON,12,3,8,"The egg, which was taken from the carton, is small, fresh, cracked and very fragile, according to the chef.",,,,small,cracked
+5,NEW-CON,12,3,8,"The egg, which was taken from the carton, is whole, fresh, cracked and very fragile, according to the chef.",,,,whole,cracked
+6,OLD-NOCON,7,3,10,"The dog, which is tired, large, hungry and very loud, was lying by the fireplace, according to the owner.",,,,tired,hungry
+6,OLD-CON,7,3,10,"The dog, which is full, large, hungry and very loud, was lying by the fireplace, according to the owner.",,,,full,hungry
+6,NEW-NOCON,12,3,8,"The dog, which was lying by the fireplace, is tired, large, hungry and very loud, according to the owner. ",,,,tired,hungry
+6,NEW-CON,12,3,8,"The dog, which was lying by the fireplace, is full, large, hungry and very loud, according to the owner. ",,,,full,hungry
+7,OLD-NOCON,7,3,10,"The road, which is narrow, long, curved and very steep, cuts through the mountain, according to the driver.",,,,narrow,curved
+7,OLD-CON,7,3,10,"The road, which is straight, long, curved and very steep, cuts through the mountain, according to the driver.",,,,straight,curved
+7,NEW-NOCON,11,3,7,"The road, which cuts through the mountain, is narrow, long, curved and very steep, according to the driver. ",,,,narrow,curved
+7,NEW-CON,11,3,7,"The road, which cuts through the mountain, is straight, long, curved and very steep, according to the driver. ",,,,straight,curved
+8,OLD-NOCON,7,3,10,"The shop, which is small, local, open and very quiet, sits on the corner, according to the postman.",,,,small,open
+8,OLD-CON,7,3,10,"The shop, which is closed, local, open and very quiet, sits on the corner, according to the postman.",,,,closed,open
+8,NEW-NOCON,11,3,7,"The shop, which sits on the corner, is small, local, open and very quiet, according to the postman.",,,,small,open
+8,NEW-CON,11,3,7,"The shop, which sits on the corner, is closed, local, open and very quiet, according to the postman.",,,,closed,open
+9,OLD-NOCON,7,3,10,"The soup, which is fresh, creamy, cold and very delicious, was served at the table, according to the waiter.",,,,fresh,cold
+9,OLD-CON,7,3,10,"The soup, which is hot, creamy, cold and very delicious, was served at the table, according to the waiter.",,,,hot,cold
+9,NEW-NOCON,12,3,8,"The soup, which was served at the table, is fresh, creamy, cold and very delicious, according to the waiter.",,,,fresh,cold
+9,NEW-CON,12,3,8,"The soup, which was served at the table, is hot, creamy, cold and very delicious, according to the waiter.",,,,hot,cold
+10,OLD-NOCON,7,3,10,"The mountain, which is tall, green, far and very rocky, was spotted from the village, according to the guide.",,,,tall,far
+10,OLD-CON,7,3,10,"The mountain, which is nearby, green, far and very rocky, was spotted from the village, according to the guide.",,,,nearby,far
+10,NEW-NOCON,12,3,8,"The mountain, which was spotted from the village, is tall, green, far and very rocky, according to the guide.",,,,tall,far
+10,NEW-CON,12,3,8,"The mountain, which was spotted from the village, is nearby, green, far and very rocky, according to the guide.",,,,nearby,far
+11,OLD-NOCON,7,3,10,"The fighter, which is short, young, weak and very handsome, entered the ring, according to the referee.",,,,short,weak
+11,OLD-CON,7,3,10,"The fighter, which is strong, young, weak and very handsome, entered the ring, according to the referee.",,,,strong,weak
+11,NEW-NOCON,10,3,6,"The fighter, which entered the ring, is short, young, weak and very handsome, according to the referee.",,,,short,weak
+11,NEW-CON,10,3,6,"The fighter, which entered the ring, is strong, young, weak and very handsome, according to the referee.",,,,strong,weak
+12,OLD-NOCON,7,3,10,"The exam, which is long, formal, difficult and very detailed, was handed out in the morning, according to the teacher.",,,,long,difficult
+12,OLD-CON,7,3,10,"The exam, which is easy, formal, difficult and very detailed, was handed out in the morning, according to the teacher.",,,,easy,difficult
+12,NEW-NOCON,13,3,9,"The exam, which was handed out in the morning, is long, formal, difficult and very detailed, according to the teacher.",,,,long,difficult
+12,NEW-CON,13,3,9,"The exam, which was handed out in the morning, is easy, formal, difficult and very detailed, according to the teacher.",,,,easy,difficult
 13,PROVO,0,,,"There are now rumblings that Apple might soon invade the smart watch space, though the company is maintaining its customary silence.",Which market is Apple rumored to enter?,Smart watches,Self-driving cars,,
 14,PROVO,0,,,"A bill was drafted and introduced into Parliament several times but met with great opposition, mostly from farmers.",Was there a bill drafted?,Yes,No,,
 15,PROVO,0,,,"The human body can tolerate only a small range of temperature, especially when the person is engaged in vigorous activity.",Can the human body tolerate a wide range of temperature?,No,Yes,,
