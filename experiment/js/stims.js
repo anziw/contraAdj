@@ -294,18 +294,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "big,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "round,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -415,18 +415,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "clean,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "round,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -801,18 +801,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "tall,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "green,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -928,18 +928,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "nearby,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "green,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -1278,18 +1278,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "short,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "young,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -1393,18 +1393,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "strong,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "young,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -1797,18 +1797,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "long,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "formal,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -1930,18 +1930,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "easy,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "formal,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -2316,18 +2316,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "old,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "urban,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -2443,18 +2443,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "safe,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "urban,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -2829,18 +2829,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "old,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "ginger,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -2956,18 +2956,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "healthy,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "ginger,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -3360,18 +3360,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "clean,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "white,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -3493,18 +3493,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "dry,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "white,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -3879,18 +3879,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "small,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "fresh,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -4006,18 +4006,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "whole,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "fresh,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -4392,18 +4392,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "tired,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "large,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -4519,18 +4519,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "full,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "large,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -4887,18 +4887,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "narrow,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "long,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -5008,18 +5008,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "straight,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "long,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -5376,18 +5376,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "small,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "local,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -5497,18 +5497,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "closed,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "local,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -5883,18 +5883,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "fresh,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "creamy,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
@@ -6010,18 +6010,18 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
+            "lbr_after": true,
             "region": "contrast"
           },
           {
             "form": "hot,",
-            "lbr_before": false,
-            "lbr_after": true,
+            "lbr_before": true,
+            "lbr_after": false,
             "region": "0"
           },
           {
             "form": "creamy,",
-            "lbr_before": true,
+            "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
