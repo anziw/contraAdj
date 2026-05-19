@@ -1,4 +1,4 @@
-# ****** Important note ******
+# ****** Important ******
 # Remove unexpected backslashes from source csv file prior to running this script
 
 import csv

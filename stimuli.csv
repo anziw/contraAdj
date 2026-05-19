@@ -1,100 +1,64 @@
-Item,Condition,TargetPos,Sentence,Question,Correct,Incorrect,Adj1,Adj2
-1,OLD-NOCON,8,"The table that is big, round, wooden, dirty and very heavy can hold three people, according to the server.",,,,big,dirty
-1,OLD-CON,8,"The table that is clean, round, wooden, dirty and very heavy can hold three people, according to the server.",,,,clean,dirty
-1,NEW-NOCON,12,"The table that can hold three people is big, round, wooden, dirty and very heavy, according to the server. ",,,,big,dirty
-1,NEW-CON,12,"The table that can hold three people is clean, round, wooden, dirty and very heavy, according to the server. ",,,,clean,dirty
-2,OLD-NOCON,8,"The neighborhood that is old, urban, diverse, dangerous and very welcoming is close to the river, according to the resident.",,,,old,dangerous
-2,OLD-CON,8,"The neighborhood that is safe, urban, diverse, dangerous and very welcoming is close to the river, according to the resident.",,,,safe,dangerous
-2,NEW-NOCON,13,"The neighborhood that is close to the river is old, urban, diverse, dangerous and very welcoming, according to the resident.",,,,old,dangerous
-2,NEW-CON,13,"The neighborhood that is close to the river is safe, urban, diverse, dangerous and very welcoming, according to the resident.",,,,safe,dangerous
-3,OLD-NOCON,8,"The cat that is old, fluffy, ginger, sick and very thin was found wandering the street, according to the shelter.",,,,old,sick
-3,OLD-CON,8,"The cat that is healthy, fluffy, ginger, sick and very thin was found wandering the street, according to the shelter.",,,,healthy,sick
-3,NEW-NOCON,13,"The cat that was found wandering the street is old, fluffy, ginger, sick and very thin, according to the shelter.",,,,old,sick
-3,NEW-CON,13,"The cat that was found wandering the street is healthy, fluffy, ginger, sick and very thin, according to the shelter.",,,,healthy,sick
-4,OLD-NOCON,8,"The towel that is clean, thick, white, wet and very heavy was left on the bathroom floor, according to the guest.",,,,clean,wet
-4,OLD-CON,8,"The towel that is dry, thick, white, wet and very heavy was left on the bathroom floor, according to the guest.",,,,dry,wet
-4,NEW-NOCON,14,"The towel that was left on the bathroom floor is clean, thick, white, wet and very heavy, according to the guest.",,,,clean,wet
-4,NEW-CON,14,"The towel that was left on the bathroom floor is dry, thick, white, wet and very heavy, according to the guest.",,,,dry,wet
-5,OLD-NOCON,8,"The stone that is grey, oval, speckled, rough and very heavy was pulled from the riverbed, according to the diver.",,,,grey,rough
-5,OLD-CON,8,"The stone that is smooth, oval, speckled, rough and very heavy was pulled from the riverbed, according to the diver.",,,,smooth,rough
-5,NEW-NOCON,13,"The stone that was pulled from the riverbed is grey, oval, speckled, rough and very heavy, according to the diver. ",,,,grey,rough
-5,NEW-CON,13,"The stone that was pulled from the riverbed is smooth, oval, speckled, rough and very heavy, according to the diver. ",,,,smooth,rough
-6,OLD-NOCON,8,"The egg that is small, white, fresh, cracked and very fragile was taken from the carton, according to the chef.",,,,small,cracked
-6,OLD-CON,8,"The egg that is whole, white, fresh, cracked and very fragile was taken from the carton, according to the chef.",,,,whole,cracked
-6,NEW-NOCON,13,"The egg that was taken from the carton is small, white, fresh, cracked and very fragile, according to the chef.",,,,small,cracked
-6,NEW-CON,13,"The egg that was taken from the carton is whole, white, fresh, cracked and very fragile, according to the chef.",,,,whole,cracked
-7,OLD-NOCON,8,"The dog that is tired, large, brown, hungry and very loud was lying by the fireplace, according to the owner.",,,,tired,hungry
-7,OLD-CON,8,"The dog that is satiated, large, brown, hungry and very loud was lying by the fireplace, according to the owner.",,,,satiated,hungry
-7,NEW-NOCON,13,"The dog that was lying by the fireplace is tired, large, brown, hungry and very loud, according to the owner. ",,,,tired,hungry
-7,NEW-CON,13,"The dog that was lying by the fireplace is satiated, large, brown, hungry and very loud, according to the owner. ",,,,satiated,hungry
-8,OLD-NOCON,8,"The road that is narrow, paved, long, curved and very steep cuts through the mountain, according to the driver.",,,,narrow,curved
-8,OLD-CON,8,"The road that is straight, paved, long, curved and very steep cuts through the mountain, according to the driver.",,,,straight,curved
-8,NEW-NOCON,12,"The road that cuts through the mountain is narrow, paved, long, curved and very steep, according to the driver. ",,,,narrow,curved
-8,NEW-CON,12,"The road that cuts through the mountain is straight, paved, long, curved and very steep, according to the driver. ",,,,straight,curved
-9,OLD-NOCON,8,"The shop that is small, local, quiet, open and very crowded sits on the corner, according to the postman.",,,,small,open
-9,OLD-CON,8,"The shop that is closed, local, quiet, open and very crowded sits on the corner, according to the postman.",,,,closed,open
-9,NEW-NOCON,12,"The shop that sits on the corner is small, local, quiet, open and very crowded, according to the postman.",,,,small,open
-9,NEW-CON,12,"The shop that sits on the corner is closed, local, quiet, open and very crowded, according to the postman.",,,,closed,open
-10,OLD-NOCON,8,"The plant that is tall, tropical, potted, alive and very fragile was found in the abandoned house, according to the realtor.",,,,tall,alive
-10,OLD-CON,8,"The plant that is dead, tropical, potted, alive and very fragile was found in the abandoned house, according to the realtor.",,,,dead,alive
-10,NEW-NOCON,14,"The plant that was found in the abandoned house is tall, tropical, potted, alive and very fragile, according to the realtor.",,,,tall,alive
-10,NEW-CON,14,"The plant that was found in the abandoned house is dead, tropical, potted, alive and very fragile, according to the realtor.",,,,dead,alive
-11,OLD-NOCON,8,"The soup that is fresh, thick, creamy, cold and very delicious was served at the table, according to the waiter.",,,,fresh,cold
-11,OLD-CON,8,"The soup that is hot, thick, creamy, cold and very delicious was served at the table, according to the waiter.",,,,hot,cold
-11,NEW-NOCON,13,"The soup that was served at the table is fresh, thick, creamy, cold and very delicious, according to the waiter.",,,,fresh,cold
-11,NEW-CON,13,"The soup that was served at the table is hot, thick, creamy, cold and very delicious, according to the waiter.",,,,hot,cold
-12,OLD-NOCON,8,"The hallway that is dark, narrow, carpeted, long and very dusty leads to the back of the building, according to the janitor.",,,,dark,long
-12,OLD-CON,8,"The hallway that is short, narrow, carpeted, long and very dusty leads to the back of the building, according to the janitor.",,,,short,long
-12,NEW-NOCON,15,"The hallway that leads to the back of the building is dark, narrow, carpeted, long and very dusty, according to the janitor.",,,,dark,long
-12,NEW-CON,15,"The hallway that leads to the back of the building is short, narrow, carpeted, long and very dusty, according to the janitor.",,,,short,long
-13,OLD-NOCON,8,"The mountain that is tall, rocky, green, far and very dangerous was spotted from the village, according to the guide.",,,,tall,far
-13,OLD-CON,8,"The mountain that is nearby, rocky, green, far and very dangerous was spotted from the village, according to the guide.",,,,nearby,far
-13,NEW-NOCON,13,"The mountain that was spotted from the village is tall, rocky, green, far and very dangerous, according to the guide.",,,,tall,far
-13,NEW-CON,13,"The mountain that was spotted from the village is nearby, rocky, green, far and very dangerous, according to the guide.",,,,nearby,far
-14,OLD-NOCON,8,"The fighter that is short, lean, young, weak and very slow entered the ring, according to the referee.",,,,short,weak
-14,OLD-CON,8,"The fighter that is strong, lean, young, weak and very slow entered the ring, according to the referee.",,,,strong,weak
-14,NEW-NOCON,11,"The fighter that entered the ring is short, lean, young, weak and very slow, according to the referee.",,,,short,weak
-14,NEW-CON,11,"The fighter that entered the ring is strong, lean, young, weak and very slow, according to the referee.",,,,strong,weak
-15,OLD-NOCON,8,"The bread that is stale, round, brown, hard and very dense was left on the counter, according to the baker.",,,,stale,hard
-15,OLD-CON,8,"The bread that is soft, round, brown, hard and very dense was left on the counter, according to the baker.",,,,soft,hard
-15,NEW-NOCON,13,"The bread that was left on the counter is stale, round, brown, hard and very dense, according to the baker.",,,,stale,hard
-15,NEW-CON,13,"The bread that was left on the counter is soft, round, brown, hard and very dense, according to the baker.",,,,soft,hard
-16,OLD-NOCON,8,"The exam that is long, written, formal, difficult and very detailed was handed out in the morning, according to the teacher.",,,,long,difficult
-16,OLD-CON,8,"The exam that is easy, written, formal, difficult and very detailed was handed out in the morning, according to the teacher.",,,,easy,difficult
-16,NEW-NOCON,14,"The exam that was handed out in the morning is long, written, formal, difficult and very detailed, according to the teacher.",,,,long,difficult
-16,NEW-CON,14,"The exam that was handed out in the morning is easy, written, formal, difficult and very detailed, according to the teacher.",,,,easy,difficult
-17,PROVO,0,"There are now rumblings that Apple might soon invade the smart watch space, though the company is maintaining its customary silence.",Which market is Apple rumored to enter?,Smart watches,Self-driving cars,,
-18,PROVO,0,"A bill was drafted and introduced into Parliament several times but met with great opposition, mostly from farmers.",Was there a bill drafted?,Yes,No,,
-19,PROVO,0,"The human body can tolerate only a small range of temperature, especially when the person is engaged in vigorous activity.",Can the human body tolerate a wide range of temperature?,No,Yes,,
-20,PROVO,0,"Seeing Peter slowly advancing upon him through the air with dagger poised, he sprang upon the bulwarks to cast himself into the sea.",Did the man escape Peter's attempt to attack?,Yes,No,,
-21,PROVO,0,"Some months later, Michael Larson saw another opportunity to stack the odds in his favor with a dash of ingenuity.",Did Larson see more than one opportunity?,Yes,No,,
-22,PROVO,0,"Bob Murphy, the Senior PGA Tour money leader with seven hundred thousand, says heat shouldn't be a factor.",Is the leader cocnered about the heat?,No,Yes,,
-23,PROVO,0,"Greg Anderson, considered a key witness by the prosecution, vowed he wouldn't testify when served a subpoena last week.",Was Greg Anderson asked to testify?,Yes,No,,
-24,PROVO,0,Owls are more flexible than humans because a bird's head is only connected by one socket pivot.,Are humans less flexible than owls?,Yes,No,,
-25,PROVO,0,"Buck did not like it, but he bore up well to the work, taking pride in it.",How did Buck deal with his job?,He carried on,He quit,,
-26,PROVO,0,"These days, neuroscience is beginning to catch up to musicians who practice mentally.",Is neuroscience making progress in understanding musicians?,Yes,No,,
-27,PROVO,0,Hybrid vehicles have a halo that makes owners feel righteous and their neighbors feel guilty for not doing as much to save the planet.,Why would the neighbors feel inferior?,Their cars are not as eco-friendly,They are not as rich,,
-28,PROVO,0,"Binge drinking may not necessarily kill or even damage brain cells, as commonly thought, a new animal study suggests.",Do most people think binge drinking damages brain cells?,Yes,No,,
-29,PROVO,0,"When attacked, a skunk's natural inclination is to turn around, lick its tail and spray a noxious scent.",Are skunks inclined to face forward when attacked?,No,Yes,,
-30,PROVO,0,All that the brain has to work with are imperfect incoming electrical impulses announcing that things are happening.,Are electrical singals in our brain always correct?,No,Yes,,
-31,PROVO,0,There often seems to be more diving in soccer than in the Summer Olympics.,Do people dive in soccer?,Yes,No,,
-32,PROVO,0,Susan B. Anthony spent nearly sixty years of her life devoted to the cause of social justice and equality for all.,How would one describe Susan?,Philanthropic,Selfish,,
-33,UNGRAMM,0,John was kissed John.,,,,,
-34,UNGRAMM,0,Mary was kicked Mary.,,,,,
-35,UNGRAMM,0,The book was read the book.,,,,,
-36,UNGRAMM,0,The laundry was folded the laundry.,,,,,
-37,UNGRAMM,0,The money was stolen the money.,,,,,
-38,UNGRAMM,0,The hedges were trimmed the hedges.,,,,,
-39,UNGRAMM,0,Kelly was praised Kelly.,,,,,
-40,UNGRAMM,0,Tommy was punished Tommy.,,,,,
-41,UNGRAMM,0,"Expect to receive, Sarah did a good grade.",,,,,
-42,UNGRAMM,0,"Try to solve, Martin did the math problem.",,,,,
-43,UNGRAMM,0,"Promise to wash, Neal did the car.",,,,,
-44,UNGRAMM,0,"Forget to walk, Susan did the dog.",,,,,
-45,UNGRAMM,0,"Hope to attend, John did college.",,,,,
-46,UNGRAMM,0,"Manage to pass, Tim did his exam.",,,,,
-47,UNGRAMM,0,"Start to eat, Ava did the dinner.",,,,,
-48,UNGRAMM,0,"Care to ask, Aaron did the question.",,,,,
-49,PRACTICE1,0,"Very similar, but even more striking, is the evidence from athletic training.",,,,,
-50,PRACTICE2,0,"The girl's feet were then re-wrapped even tighter than before, causing her footprint to shrink further.",Were the wraps around the girl's feet tighter after they were re-wrapped?,Yes,No,,
-51,PRACTICE3,0,Lady Gaga's YouTube account was suspended Thursday.,What account was suspended on Thursday?,Lady Gaga's Youtube,Lady Gaga's Instagram,,
+Item,Condition,TargetPos,GEP_start,GEP_end,Sentence,Question,Correct,Incorrect,Adj1,Adj2
+1,OLD-NOCON,7,3,10,"The table that is big, round, dirty and very heavy can hold three people, according to the server.",,,,big,dirty
+1,OLD-CON,7,3,10,"The table that is clean, round, dirty and very heavy can hold three people, according to the server.",,,,clean,dirty
+1,NEW-NOCON,11,3,7,"The table that can hold three people is big, round, dirty and very heavy, according to the server. ",,,,big,dirty
+1,NEW-CON,11,3,7,"The table that can hold three people is clean, round, dirty and very heavy, according to the server. ",,,,clean,dirty
+2,OLD-NOCON,7,3,10,"The neighborhood that is old, urban, dangerous and very diverse is close to the river, according to the resident.",,,,old,dangerous
+2,OLD-CON,7,3,10,"The neighborhood that is safe, urban, dangerous and very diverse is close to the river, according to the resident.",,,,safe,dangerous
+2,NEW-NOCON,12,3,8,"The neighborhood that is close to the river is old, urban, dangerous and very diverse, according to the resident.",,,,old,dangerous
+2,NEW-CON,12,3,8,"The neighborhood that is close to the river is safe, urban, dangerous and very diverse, according to the resident.",,,,safe,dangerous
+3,OLD-NOCON,7,3,10,"The cat that is old, ginger, sick and very thin was found wandering the street, according to the shelter.",,,,old,sick
+3,OLD-CON,7,3,10,"The cat that is healthy, ginger, sick and very thin was found wandering the street, according to the shelter.",,,,healthy,sick
+3,NEW-NOCON,12,3,8,"The cat that was found wandering the street is old, ginger, sick and very thin, according to the shelter.",,,,old,sick
+3,NEW-CON,12,3,8,"The cat that was found wandering the street is healthy, ginger, sick and very thin, according to the shelter.",,,,healthy,sick
+4,OLD-NOCON,7,3,10,"The towel that is clean, white, wet and very thick was left on the bathroom floor, according to the guest.",,,,clean,wet
+4,OLD-CON,7,3,10,"The towel that is dry, white, wet and very thick was left on the bathroom floor, according to the guest.",,,,dry,wet
+4,NEW-NOCON,13,3,9,"The towel that was left on the bathroom floor is clean, white, wet and very thick, according to the guest.",,,,clean,wet
+4,NEW-CON,13,3,9,"The towel that was left on the bathroom floor is dry, white, wet and very thick, according to the guest.",,,,dry,wet
+5,OLD-NOCON,7,3,10,"The egg that is small, fresh, cracked and very fragile was taken from the carton, according to the chef.",,,,small,cracked
+5,OLD-CON,7,3,10,"The egg that is whole, fresh, cracked and very fragile was taken from the carton, according to the chef.",,,,whole,cracked
+5,NEW-NOCON,12,3,8,"The egg that was taken from the carton is small, fresh, cracked and very fragile, according to the chef.",,,,small,cracked
+5,NEW-CON,12,3,8,"The egg that was taken from the carton is whole, fresh, cracked and very fragile, according to the chef.",,,,whole,cracked
+6,OLD-NOCON,7,3,10,"The dog that is tired, large, hungry and very loud was lying by the fireplace, according to the owner.",,,,tired,hungry
+6,OLD-CON,7,3,10,"The dog that is full, large, hungry and very loud was lying by the fireplace, according to the owner.",,,,satiated,hungry
+6,NEW-NOCON,12,3,8,"The dog that was lying by the fireplace is tired, large, hungry and very loud, according to the owner. ",,,,tired,hungry
+6,NEW-CON,12,3,8,"The dog that was lying by the fireplace is full, large, hungry and very loud, according to the owner. ",,,,satiated,hungry
+7,OLD-NOCON,7,3,10,"The road that is narrow, long, curved and very steep cuts through the mountain, according to the driver.",,,,narrow,curved
+7,OLD-CON,7,3,10,"The road that is straight, long, curved and very steep cuts through the mountain, according to the driver.",,,,straight,curved
+7,NEW-NOCON,11,3,7,"The road that cuts through the mountain is narrow, long, curved and very steep, according to the driver. ",,,,narrow,curved
+7,NEW-CON,11,3,7,"The road that cuts through the mountain is straight, long, curved and very steep, according to the driver. ",,,,straight,curved
+8,OLD-NOCON,7,3,10,"The shop that is small, local, open and very quiet sits on the corner, according to the postman.",,,,small,open
+8,OLD-CON,7,3,10,"The shop that is closed, local, open and very quiet sits on the corner, according to the postman.",,,,closed,open
+8,NEW-NOCON,11,3,7,"The shop that sits on the corner is small, local, open and very quiet, according to the postman.",,,,small,open
+8,NEW-CON,11,3,7,"The shop that sits on the corner is closed, local, open and very quiet, according to the postman.",,,,closed,open
+9,OLD-NOCON,7,3,10,"The soup that is fresh, creamy, cold and very delicious was served at the table, according to the waiter.",,,,fresh,cold
+9,OLD-CON,7,3,10,"The soup that is hot, creamy, cold and very delicious was served at the table, according to the waiter.",,,,hot,cold
+9,NEW-NOCON,12,3,8,"The soup that was served at the table is fresh, creamy, cold and very delicious, according to the waiter.",,,,fresh,cold
+9,NEW-CON,12,3,8,"The soup that was served at the table is hot, creamy, cold and very delicious, according to the waiter.",,,,hot,cold
+10,OLD-NOCON,7,3,10,"The mountain that is tall, green, far and very rocky was spotted from the village, according to the guide.",,,,tall,far
+10,OLD-CON,7,3,10,"The mountain that is nearby, green, far and very rocky was spotted from the village, according to the guide.",,,,nearby,far
+10,NEW-NOCON,12,3,8,"The mountain that was spotted from the village is tall, green, far and very rocky, according to the guide.",,,,tall,far
+10,NEW-CON,12,3,8,"The mountain that was spotted from the village is nearby, green, far and very rocky, according to the guide.",,,,nearby,far
+11,OLD-NOCON,7,3,10,"The fighter that is short, young, weak and very handsome entered the ring, according to the referee.",,,,short,weak
+11,OLD-CON,7,3,10,"The fighter that is strong, young, weak and very handsome entered the ring, according to the referee.",,,,strong,weak
+11,NEW-NOCON,10,3,6,"The fighter that entered the ring is short, young, weak and very handsome, according to the referee.",,,,short,weak
+11,NEW-CON,10,3,6,"The fighter that entered the ring is strong, young, weak and very handsome, according to the referee.",,,,strong,weak
+12,OLD-NOCON,7,3,10,"The exam that is long, formal, difficult and very detailed was handed out in the morning, according to the teacher.",,,,long,difficult
+12,OLD-CON,7,3,10,"The exam that is easy, formal, difficult and very detailed was handed out in the morning, according to the teacher.",,,,easy,difficult
+12,NEW-NOCON,13,3,9,"The exam that was handed out in the morning is long, formal, difficult and very detailed, according to the teacher.",,,,long,difficult
+12,NEW-CON,13,3,9,"The exam that was handed out in the morning is easy, formal, difficult and very detailed, according to the teacher.",,,,easy,difficult
+13,PROVO,0,,,"There are now rumblings that Apple might soon invade the smart watch space, though the company is maintaining its customary silence.",Which market is Apple rumored to enter?,Smart watches,Self-driving cars,,
+14,PROVO,0,,,"A bill was drafted and introduced into Parliament several times but met with great opposition, mostly from farmers.",Was there a bill drafted?,Yes,No,,
+15,PROVO,0,,,"The human body can tolerate only a small range of temperature, especially when the person is engaged in vigorous activity.",Can the human body tolerate a wide range of temperature?,No,Yes,,
+16,PROVO,0,,,"Seeing Peter slowly advancing upon him through the air with dagger poised, he sprang upon the bulwarks to cast himself into the sea.",Did the man escape Peter's attempt to attack?,Yes,No,,
+17,PROVO,0,,,"Some months later, Michael Larson saw another opportunity to stack the odds in his favor with a dash of ingenuity.",Did Larson see more than one opportunity?,Yes,No,,
+18,PROVO,0,,,"Bob Murphy, the Senior PGA Tour money leader with seven hundred thousand, says heat shouldn't be a factor.",Is the leader cocnered about the heat?,No,Yes,,
+19,UNGRAMM,0,,,John was kissed John.,,,,,
+20,UNGRAMM,0,,,Mary was kicked Mary.,,,,,
+21,UNGRAMM,0,,,The book was read the book.,,,,,
+22,UNGRAMM,0,,,The laundry was folded the laundry.,,,,,
+23,UNGRAMM,0,,,The money was stolen the money.,,,,,
+24,UNGRAMM,0,,,The hedges were trimmed the hedges.,,,,,
+25,PRACTICE1,0,,,"Very similar, but even more striking, is the evidence from athletic training.",,,,,
+26,PRACTICE2,0,,,"The girl's feet were then re-wrapped even tighter than before, causing her footprint to shrink further.",Were the wraps around the girl's feet tighter after they were re-wrapped?,Yes,No,,
+27,PRACTICE3,0,,,Lady Gaga's YouTube account was suspended Thursday.,What account was suspended on Thursday?,Lady Gaga's Youtube,Lady Gaga's Instagram,,

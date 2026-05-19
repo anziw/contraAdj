@@ -29,22 +29,16 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
+            "region": "contrast"
           },
           {
             "form": "big,",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "contrast"
-          },
-          {
-            "form": "round,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "wooden,",
+            "form": "round,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -125,7 +119,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
+        "target_pos": "7",
         "adj1": "big",
         "adj2": "dirty",
         "type": "critical",
@@ -156,22 +150,16 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
+            "region": "contrast"
           },
           {
             "form": "clean,",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "contrast"
-          },
-          {
-            "form": "round,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "wooden,",
+            "form": "round,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -252,7 +240,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
+        "target_pos": "7",
         "adj1": "clean",
         "adj2": "dirty",
         "type": "critical",
@@ -306,23 +294,17 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "big,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "round,",
+            "form": "big,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "wooden,",
+            "form": "round,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -379,7 +361,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "12",
+        "target_pos": "11",
         "adj1": "big",
         "adj2": "dirty",
         "type": "critical",
@@ -433,23 +415,17 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "clean,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "round,",
+            "form": "clean,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "wooden,",
+            "form": "round,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -506,7 +482,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "12",
+        "target_pos": "11",
         "adj1": "clean",
         "adj2": "dirty",
         "type": "critical",
@@ -527,7 +503,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "plant",
+            "form": "mountain",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -542,28 +518,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
+            "region": "contrast"
           },
           {
             "form": "tall,",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "contrast"
+            "region": "0"
           },
           {
-            "form": "tropical,",
+            "form": "green,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "potted,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "alive",
+            "form": "far",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -581,7 +551,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "fragile",
+            "form": "rocky",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -593,13 +563,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "found",
+            "form": "spotted",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "in",
+            "form": "from",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -611,13 +581,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "abandoned",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "house,",
+            "form": "village,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -641,7 +605,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "realtor.",
+            "form": "guide.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -650,9 +614,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
+        "target_pos": "7",
         "adj1": "tall",
-        "adj2": "alive",
+        "adj2": "far",
         "type": "critical",
         "trial_id": "critical_10_OLD-NOCON"
       },
@@ -666,7 +630,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "plant",
+            "form": "mountain",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -681,28 +645,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "dead,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "tropical,",
+            "form": "nearby,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "potted,",
+            "form": "green,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "alive",
+            "form": "far",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -720,7 +678,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "fragile",
+            "form": "rocky",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -732,13 +690,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "found",
+            "form": "spotted",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "in",
+            "form": "from",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -750,13 +708,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "abandoned",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "house,",
+            "form": "village,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -780,7 +732,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "realtor.",
+            "form": "guide.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -789,9 +741,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "dead",
-        "adj2": "alive",
+        "target_pos": "7",
+        "adj1": "nearby",
+        "adj2": "far",
         "type": "critical",
         "trial_id": "critical_10_OLD-CON"
       },
@@ -805,7 +757,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "plant",
+            "form": "mountain",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -823,13 +775,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "found",
+            "form": "spotted",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "in",
+            "form": "from",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -841,13 +793,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "abandoned",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "house",
+            "form": "village",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -855,29 +801,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "tall,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "tropical,",
+            "form": "tall,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "potted,",
+            "form": "green,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "alive",
+            "form": "far",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -895,7 +835,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "fragile,",
+            "form": "rocky,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -919,7 +859,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "realtor.",
+            "form": "guide.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -928,9 +868,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "14",
+        "target_pos": "12",
         "adj1": "tall",
-        "adj2": "alive",
+        "adj2": "far",
         "type": "critical",
         "trial_id": "critical_10_NEW-NOCON"
       },
@@ -944,7 +884,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "plant",
+            "form": "mountain",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -962,13 +902,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "found",
+            "form": "spotted",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "in",
+            "form": "from",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -980,13 +920,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "abandoned",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "house",
+            "form": "village",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -994,29 +928,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "dead,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "tropical,",
+            "form": "nearby,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "potted,",
+            "form": "green,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "alive",
+            "form": "far",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -1034,7 +962,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "fragile,",
+            "form": "rocky,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -1058,7 +986,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "realtor.",
+            "form": "guide.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1067,9 +995,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "14",
-        "adj1": "dead",
-        "adj2": "alive",
+        "target_pos": "12",
+        "adj1": "nearby",
+        "adj2": "far",
         "type": "critical",
         "trial_id": "critical_10_NEW-CON"
       }
@@ -1088,7 +1016,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "soup",
+            "form": "fighter",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1103,28 +1031,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "fresh,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "thick,",
+            "form": "short,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "creamy,",
+            "form": "young,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "cold",
+            "form": "weak",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -1142,25 +1064,13 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "delicious",
+            "form": "handsome",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
           },
           {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "served",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "at",
+            "form": "entered",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1172,7 +1082,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "table,",
+            "form": "ring,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1196,7 +1106,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "waiter.",
+            "form": "referee.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1205,9 +1115,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "fresh",
-        "adj2": "cold",
+        "target_pos": "7",
+        "adj1": "short",
+        "adj2": "weak",
         "type": "critical",
         "trial_id": "critical_11_OLD-NOCON"
       },
@@ -1221,7 +1131,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "soup",
+            "form": "fighter",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1236,28 +1146,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "hot,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "thick,",
+            "form": "strong,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "creamy,",
+            "form": "young,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "cold",
+            "form": "weak",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -1275,25 +1179,13 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "delicious",
+            "form": "handsome",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
           },
           {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "served",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "at",
+            "form": "entered",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1305,7 +1197,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "table,",
+            "form": "ring,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1329,7 +1221,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "waiter.",
+            "form": "referee.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1338,9 +1230,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "hot",
-        "adj2": "cold",
+        "target_pos": "7",
+        "adj1": "strong",
+        "adj2": "weak",
         "type": "critical",
         "trial_id": "critical_11_OLD-CON"
       },
@@ -1354,7 +1246,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "soup",
+            "form": "fighter",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1366,19 +1258,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "served",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "at",
+            "form": "entered",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1390,7 +1270,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "table",
+            "form": "ring",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1398,29 +1278,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "fresh,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "thick,",
+            "form": "short,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "creamy,",
+            "form": "young,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "cold",
+            "form": "weak",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -1438,7 +1312,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "delicious,",
+            "form": "handsome,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -1462,7 +1336,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "waiter.",
+            "form": "referee.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1471,9 +1345,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "13",
-        "adj1": "fresh",
-        "adj2": "cold",
+        "target_pos": "10",
+        "adj1": "short",
+        "adj2": "weak",
         "type": "critical",
         "trial_id": "critical_11_NEW-NOCON"
       },
@@ -1487,7 +1361,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "soup",
+            "form": "fighter",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1499,19 +1373,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "served",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "at",
+            "form": "entered",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1523,7 +1385,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "table",
+            "form": "ring",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1531,29 +1393,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "hot,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "thick,",
+            "form": "strong,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "creamy,",
+            "form": "young,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "cold",
+            "form": "weak",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -1571,7 +1427,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "delicious,",
+            "form": "handsome,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -1595,7 +1451,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "waiter.",
+            "form": "referee.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1604,9 +1460,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "13",
-        "adj1": "hot",
-        "adj2": "cold",
+        "target_pos": "10",
+        "adj1": "strong",
+        "adj2": "weak",
         "type": "critical",
         "trial_id": "critical_11_NEW-CON"
       }
@@ -1625,7 +1481,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "hallway",
+            "form": "exam",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1640,28 +1496,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "dark,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "narrow,",
+            "form": "long,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "carpeted,",
+            "form": "formal,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "long",
+            "form": "difficult",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -1679,37 +1529,31 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "dusty",
+            "form": "detailed",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
           },
           {
-            "form": "leads",
+            "form": "was",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "to",
+            "form": "handed",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "the",
+            "form": "out",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "back",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "of",
+            "form": "in",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1721,7 +1565,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "building,",
+            "form": "morning,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1745,7 +1589,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "janitor.",
+            "form": "teacher.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1754,9 +1598,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "dark",
-        "adj2": "long",
+        "target_pos": "7",
+        "adj1": "long",
+        "adj2": "difficult",
         "type": "critical",
         "trial_id": "critical_12_OLD-NOCON"
       },
@@ -1770,7 +1614,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "hallway",
+            "form": "exam",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1785,28 +1629,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "short,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "narrow,",
+            "form": "easy,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "carpeted,",
+            "form": "formal,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "long",
+            "form": "difficult",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -1824,37 +1662,31 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "dusty",
+            "form": "detailed",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
           },
           {
-            "form": "leads",
+            "form": "was",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "to",
+            "form": "handed",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "the",
+            "form": "out",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "back",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "of",
+            "form": "in",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1866,7 +1698,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "building,",
+            "form": "morning,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1890,7 +1722,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "janitor.",
+            "form": "teacher.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1899,9 +1731,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "short",
-        "adj2": "long",
+        "target_pos": "7",
+        "adj1": "easy",
+        "adj2": "difficult",
         "type": "critical",
         "trial_id": "critical_12_OLD-CON"
       },
@@ -1915,7 +1747,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "hallway",
+            "form": "exam",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1927,31 +1759,25 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "leads",
+            "form": "was",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "to",
+            "form": "handed",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "the",
+            "form": "out",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "back",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "of",
+            "form": "in",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1963,7 +1789,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "building",
+            "form": "morning",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -1971,29 +1797,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "dark,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "narrow,",
+            "form": "long,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "carpeted,",
+            "form": "formal,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "long",
+            "form": "difficult",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -2011,7 +1831,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "dusty,",
+            "form": "detailed,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -2035,7 +1855,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "janitor.",
+            "form": "teacher.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2044,9 +1864,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "15",
-        "adj1": "dark",
-        "adj2": "long",
+        "target_pos": "13",
+        "adj1": "long",
+        "adj2": "difficult",
         "type": "critical",
         "trial_id": "critical_12_NEW-NOCON"
       },
@@ -2060,7 +1880,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "hallway",
+            "form": "exam",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2072,31 +1892,25 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "leads",
+            "form": "was",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "to",
+            "form": "handed",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "the",
+            "form": "out",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "back",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "of",
+            "form": "in",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2108,7 +1922,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "building",
+            "form": "morning",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2116,29 +1930,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "short,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "narrow,",
+            "form": "easy,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "carpeted,",
+            "form": "formal,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "long",
+            "form": "difficult",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -2156,7 +1964,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "dusty,",
+            "form": "detailed,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -2180,7 +1988,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "janitor.",
+            "form": "teacher.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -2189,2135 +1997,11 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "15",
-        "adj1": "short",
-        "adj2": "long",
+        "target_pos": "13",
+        "adj1": "easy",
+        "adj2": "difficult",
         "type": "critical",
         "trial_id": "critical_12_NEW-CON"
-      }
-    ]
-  },
-  {
-    "item_id": "critical_13",
-    "conditions": [
-      {
-        "condition": "OLD-NOCON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "mountain",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "tall,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "contrast"
-          },
-          {
-            "form": "rocky,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "green,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "far",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "dangerous",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "spotted",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "from",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "village,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "guide.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "tall",
-        "adj2": "far",
-        "type": "critical",
-        "trial_id": "critical_13_OLD-NOCON"
-      },
-      {
-        "condition": "OLD-CON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "mountain",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "nearby,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "contrast"
-          },
-          {
-            "form": "rocky,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "green,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "far",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "dangerous",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "spotted",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "from",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "village,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "guide.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "nearby",
-        "adj2": "far",
-        "type": "critical",
-        "trial_id": "critical_13_OLD-CON"
-      },
-      {
-        "condition": "NEW-NOCON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "mountain",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "spotted",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "from",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "village",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "tall,",
-            "lbr_before": false,
-            "lbr_after": true,
-            "region": "contrast"
-          },
-          {
-            "form": "rocky,",
-            "lbr_before": true,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "green,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "far",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "dangerous,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "guide.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "13",
-        "adj1": "tall",
-        "adj2": "far",
-        "type": "critical",
-        "trial_id": "critical_13_NEW-NOCON"
-      },
-      {
-        "condition": "NEW-CON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "mountain",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "spotted",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "from",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "village",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "nearby,",
-            "lbr_before": false,
-            "lbr_after": true,
-            "region": "contrast"
-          },
-          {
-            "form": "rocky,",
-            "lbr_before": true,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "green,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "far",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "dangerous,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "guide.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "13",
-        "adj1": "nearby",
-        "adj2": "far",
-        "type": "critical",
-        "trial_id": "critical_13_NEW-CON"
-      }
-    ]
-  },
-  {
-    "item_id": "critical_14",
-    "conditions": [
-      {
-        "condition": "OLD-NOCON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "fighter",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "short,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "contrast"
-          },
-          {
-            "form": "lean,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "young,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "weak",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "slow",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "entered",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "ring,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "referee.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "short",
-        "adj2": "weak",
-        "type": "critical",
-        "trial_id": "critical_14_OLD-NOCON"
-      },
-      {
-        "condition": "OLD-CON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "fighter",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "strong,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "contrast"
-          },
-          {
-            "form": "lean,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "young,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "weak",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "slow",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "entered",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "ring,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "referee.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "strong",
-        "adj2": "weak",
-        "type": "critical",
-        "trial_id": "critical_14_OLD-CON"
-      },
-      {
-        "condition": "NEW-NOCON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "fighter",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "entered",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "ring",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "short,",
-            "lbr_before": false,
-            "lbr_after": true,
-            "region": "contrast"
-          },
-          {
-            "form": "lean,",
-            "lbr_before": true,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "young,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "weak",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "slow,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "referee.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "11",
-        "adj1": "short",
-        "adj2": "weak",
-        "type": "critical",
-        "trial_id": "critical_14_NEW-NOCON"
-      },
-      {
-        "condition": "NEW-CON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "fighter",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "entered",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "ring",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "strong,",
-            "lbr_before": false,
-            "lbr_after": true,
-            "region": "contrast"
-          },
-          {
-            "form": "lean,",
-            "lbr_before": true,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "young,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "weak",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "slow,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "referee.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "11",
-        "adj1": "strong",
-        "adj2": "weak",
-        "type": "critical",
-        "trial_id": "critical_14_NEW-CON"
-      }
-    ]
-  },
-  {
-    "item_id": "critical_15",
-    "conditions": [
-      {
-        "condition": "OLD-NOCON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "bread",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "stale,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "contrast"
-          },
-          {
-            "form": "round,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "brown,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "hard",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "dense",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "left",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "on",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "counter,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "baker.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "stale",
-        "adj2": "hard",
-        "type": "critical",
-        "trial_id": "critical_15_OLD-NOCON"
-      },
-      {
-        "condition": "OLD-CON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "bread",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "soft,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "contrast"
-          },
-          {
-            "form": "round,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "brown,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "hard",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "dense",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "left",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "on",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "counter,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "baker.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "soft",
-        "adj2": "hard",
-        "type": "critical",
-        "trial_id": "critical_15_OLD-CON"
-      },
-      {
-        "condition": "NEW-NOCON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "bread",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "left",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "on",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "counter",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "stale,",
-            "lbr_before": false,
-            "lbr_after": true,
-            "region": "contrast"
-          },
-          {
-            "form": "round,",
-            "lbr_before": true,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "brown,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "hard",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "dense,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "baker.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "13",
-        "adj1": "stale",
-        "adj2": "hard",
-        "type": "critical",
-        "trial_id": "critical_15_NEW-NOCON"
-      },
-      {
-        "condition": "NEW-CON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "bread",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "left",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "on",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "counter",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "soft,",
-            "lbr_before": false,
-            "lbr_after": true,
-            "region": "contrast"
-          },
-          {
-            "form": "round,",
-            "lbr_before": true,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "brown,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "hard",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "dense,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "baker.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "13",
-        "adj1": "soft",
-        "adj2": "hard",
-        "type": "critical",
-        "trial_id": "critical_15_NEW-CON"
-      }
-    ]
-  },
-  {
-    "item_id": "critical_16",
-    "conditions": [
-      {
-        "condition": "OLD-NOCON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "exam",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "long,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "contrast"
-          },
-          {
-            "form": "written,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "formal,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "difficult",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "detailed",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "handed",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "out",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "in",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "morning,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "teacher.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "long",
-        "adj2": "difficult",
-        "type": "critical",
-        "trial_id": "critical_16_OLD-NOCON"
-      },
-      {
-        "condition": "OLD-CON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "exam",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "easy,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "contrast"
-          },
-          {
-            "form": "written,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "formal,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "difficult",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "detailed",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "handed",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "out",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "in",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "morning,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "teacher.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "easy",
-        "adj2": "difficult",
-        "type": "critical",
-        "trial_id": "critical_16_OLD-CON"
-      },
-      {
-        "condition": "NEW-NOCON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "exam",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "handed",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "out",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "in",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "morning",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "long,",
-            "lbr_before": false,
-            "lbr_after": true,
-            "region": "contrast"
-          },
-          {
-            "form": "written,",
-            "lbr_before": true,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "formal,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "difficult",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "detailed,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "teacher.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "14",
-        "adj1": "long",
-        "adj2": "difficult",
-        "type": "critical",
-        "trial_id": "critical_16_NEW-NOCON"
-      },
-      {
-        "condition": "NEW-CON",
-        "words": [
-          {
-            "form": "The",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "exam",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "that",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "was",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "handed",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "out",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "in",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "morning",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "is",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "easy,",
-            "lbr_before": false,
-            "lbr_after": true,
-            "region": "contrast"
-          },
-          {
-            "form": "written,",
-            "lbr_before": true,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "formal,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "difficult",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "critical"
-          },
-          {
-            "form": "and",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_1"
-          },
-          {
-            "form": "very",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_2"
-          },
-          {
-            "form": "detailed,",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "spillover_3"
-          },
-          {
-            "form": "according",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "to",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "the",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "teacher.",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          }
-        ],
-        "question": "",
-        "correct_answer": "",
-        "incorrect_answer": "",
-        "target_pos": "14",
-        "adj1": "easy",
-        "adj2": "difficult",
-        "type": "critical",
-        "trial_id": "critical_16_NEW-CON"
       }
     ]
   },
@@ -4349,22 +2033,16 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
+            "region": "contrast"
           },
           {
             "form": "old,",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "contrast"
-          },
-          {
-            "form": "urban,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "diverse,",
+            "form": "urban,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4388,7 +2066,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "welcoming",
+            "form": "diverse",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -4451,7 +2129,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
+        "target_pos": "7",
         "adj1": "old",
         "adj2": "dangerous",
         "type": "critical",
@@ -4482,22 +2160,16 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
+            "region": "contrast"
           },
           {
             "form": "safe,",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "contrast"
-          },
-          {
-            "form": "urban,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "diverse,",
+            "form": "urban,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4521,7 +2193,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "welcoming",
+            "form": "diverse",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -4584,7 +2256,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
+        "target_pos": "7",
         "adj1": "safe",
         "adj2": "dangerous",
         "type": "critical",
@@ -4644,23 +2316,17 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "old,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "urban,",
+            "form": "old,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "diverse,",
+            "form": "urban,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4684,7 +2350,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "welcoming,",
+            "form": "diverse,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -4717,7 +2383,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "13",
+        "target_pos": "12",
         "adj1": "old",
         "adj2": "dangerous",
         "type": "critical",
@@ -4777,23 +2443,17 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "safe,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "urban,",
+            "form": "safe,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "diverse,",
+            "form": "urban,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4817,7 +2477,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "welcoming,",
+            "form": "diverse,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -4850,7 +2510,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "13",
+        "target_pos": "12",
         "adj1": "safe",
         "adj2": "dangerous",
         "type": "critical",
@@ -4886,16 +2546,10 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "old,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "fluffy,",
+            "form": "old,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -4988,7 +2642,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
+        "target_pos": "7",
         "adj1": "old",
         "adj2": "sick",
         "type": "critical",
@@ -5019,16 +2673,10 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "healthy,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "fluffy,",
+            "form": "healthy,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5121,7 +2769,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
+        "target_pos": "7",
         "adj1": "healthy",
         "adj2": "sick",
         "type": "critical",
@@ -5181,17 +2829,11 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "old,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "fluffy,",
+            "form": "old,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
@@ -5254,7 +2896,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "13",
+        "target_pos": "12",
         "adj1": "old",
         "adj2": "sick",
         "type": "critical",
@@ -5314,17 +2956,11 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "healthy,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "fluffy,",
+            "form": "healthy,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
@@ -5387,7 +3023,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "13",
+        "target_pos": "12",
         "adj1": "healthy",
         "adj2": "sick",
         "type": "critical",
@@ -5423,16 +3059,10 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "clean,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "thick,",
+            "form": "clean,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5462,7 +3092,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "heavy",
+            "form": "thick",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -5531,7 +3161,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
+        "target_pos": "7",
         "adj1": "clean",
         "adj2": "wet",
         "type": "critical",
@@ -5562,16 +3192,10 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "dry,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "thick,",
+            "form": "dry,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5601,7 +3225,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "heavy",
+            "form": "thick",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -5670,7 +3294,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
+        "target_pos": "7",
         "adj1": "dry",
         "adj2": "wet",
         "type": "critical",
@@ -5736,17 +3360,11 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "clean,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "thick,",
+            "form": "clean,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
@@ -5776,7 +3394,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "heavy,",
+            "form": "thick,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -5809,7 +3427,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "14",
+        "target_pos": "13",
         "adj1": "clean",
         "adj2": "wet",
         "type": "critical",
@@ -5875,17 +3493,11 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "dry,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "thick,",
+            "form": "dry,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
@@ -5915,7 +3527,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "heavy,",
+            "form": "thick,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -5948,7 +3560,7 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "14",
+        "target_pos": "13",
         "adj1": "dry",
         "adj2": "wet",
         "type": "critical",
@@ -5969,7 +3581,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "stone",
+            "form": "egg",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -5984,28 +3596,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "grey,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "oval,",
+            "form": "small,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "speckled,",
+            "form": "fresh,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "rough",
+            "form": "cracked",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -6023,7 +3629,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "heavy",
+            "form": "fragile",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -6035,7 +3641,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "pulled",
+            "form": "taken",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6053,7 +3659,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "riverbed,",
+            "form": "carton,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6077,7 +3683,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "diver.",
+            "form": "chef.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6086,9 +3692,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "grey",
-        "adj2": "rough",
+        "target_pos": "7",
+        "adj1": "small",
+        "adj2": "cracked",
         "type": "critical",
         "trial_id": "critical_5_OLD-NOCON"
       },
@@ -6102,7 +3708,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "stone",
+            "form": "egg",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6117,28 +3723,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "smooth,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "oval,",
+            "form": "whole,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "speckled,",
+            "form": "fresh,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "rough",
+            "form": "cracked",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -6156,7 +3756,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "heavy",
+            "form": "fragile",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -6168,7 +3768,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "pulled",
+            "form": "taken",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6186,7 +3786,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "riverbed,",
+            "form": "carton,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6210,7 +3810,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "diver.",
+            "form": "chef.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6219,9 +3819,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "smooth",
-        "adj2": "rough",
+        "target_pos": "7",
+        "adj1": "whole",
+        "adj2": "cracked",
         "type": "critical",
         "trial_id": "critical_5_OLD-CON"
       },
@@ -6235,7 +3835,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "stone",
+            "form": "egg",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6253,7 +3853,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "pulled",
+            "form": "taken",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6271,7 +3871,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "riverbed",
+            "form": "carton",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6279,29 +3879,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "grey,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "oval,",
+            "form": "small,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "speckled,",
+            "form": "fresh,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "rough",
+            "form": "cracked",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -6319,7 +3913,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "heavy,",
+            "form": "fragile,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -6343,7 +3937,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "diver.",
+            "form": "chef.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6352,9 +3946,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "13",
-        "adj1": "grey",
-        "adj2": "rough",
+        "target_pos": "12",
+        "adj1": "small",
+        "adj2": "cracked",
         "type": "critical",
         "trial_id": "critical_5_NEW-NOCON"
       },
@@ -6368,7 +3962,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "stone",
+            "form": "egg",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6386,7 +3980,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "pulled",
+            "form": "taken",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6404,7 +3998,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "riverbed",
+            "form": "carton",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6412,29 +4006,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "smooth,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "oval,",
+            "form": "whole,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "speckled,",
+            "form": "fresh,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "rough",
+            "form": "cracked",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -6452,7 +4040,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "heavy,",
+            "form": "fragile,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -6476,7 +4064,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "diver.",
+            "form": "chef.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6485,9 +4073,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "13",
-        "adj1": "smooth",
-        "adj2": "rough",
+        "target_pos": "12",
+        "adj1": "whole",
+        "adj2": "cracked",
         "type": "critical",
         "trial_id": "critical_5_NEW-CON"
       }
@@ -6506,7 +4094,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "egg",
+            "form": "dog",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6521,28 +4109,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "small,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "white,",
+            "form": "tired,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "fresh,",
+            "form": "large,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "cracked",
+            "form": "hungry",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -6560,7 +4142,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "fragile",
+            "form": "loud",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -6572,13 +4154,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "taken",
+            "form": "lying",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "from",
+            "form": "by",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6590,7 +4172,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "carton,",
+            "form": "fireplace,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6614,7 +4196,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "chef.",
+            "form": "owner.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6623,9 +4205,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "small",
-        "adj2": "cracked",
+        "target_pos": "7",
+        "adj1": "tired",
+        "adj2": "hungry",
         "type": "critical",
         "trial_id": "critical_6_OLD-NOCON"
       },
@@ -6639,7 +4221,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "egg",
+            "form": "dog",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6654,28 +4236,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "whole,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "white,",
+            "form": "full,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "fresh,",
+            "form": "large,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "cracked",
+            "form": "hungry",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -6693,7 +4269,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "fragile",
+            "form": "loud",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -6705,13 +4281,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "taken",
+            "form": "lying",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "from",
+            "form": "by",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6723,7 +4299,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "carton,",
+            "form": "fireplace,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6747,7 +4323,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "chef.",
+            "form": "owner.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6756,9 +4332,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "whole",
-        "adj2": "cracked",
+        "target_pos": "7",
+        "adj1": "satiated",
+        "adj2": "hungry",
         "type": "critical",
         "trial_id": "critical_6_OLD-CON"
       },
@@ -6772,7 +4348,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "egg",
+            "form": "dog",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6790,13 +4366,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "taken",
+            "form": "lying",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "from",
+            "form": "by",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6808,7 +4384,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "carton",
+            "form": "fireplace",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6816,29 +4392,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "small,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "white,",
+            "form": "tired,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "fresh,",
+            "form": "large,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "cracked",
+            "form": "hungry",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -6856,7 +4426,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "fragile,",
+            "form": "loud,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -6880,7 +4450,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "chef.",
+            "form": "owner.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6889,9 +4459,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "13",
-        "adj1": "small",
-        "adj2": "cracked",
+        "target_pos": "12",
+        "adj1": "tired",
+        "adj2": "hungry",
         "type": "critical",
         "trial_id": "critical_6_NEW-NOCON"
       },
@@ -6905,7 +4475,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "egg",
+            "form": "dog",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6923,13 +4493,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "taken",
+            "form": "lying",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "from",
+            "form": "by",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6941,7 +4511,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "carton",
+            "form": "fireplace",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -6949,29 +4519,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "whole,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "white,",
+            "form": "full,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "fresh,",
+            "form": "large,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "cracked",
+            "form": "hungry",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -6989,7 +4553,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "fragile,",
+            "form": "loud,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -7013,7 +4577,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "chef.",
+            "form": "owner.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7022,9 +4586,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "13",
-        "adj1": "whole",
-        "adj2": "cracked",
+        "target_pos": "12",
+        "adj1": "satiated",
+        "adj2": "hungry",
         "type": "critical",
         "trial_id": "critical_6_NEW-CON"
       }
@@ -7043,7 +4607,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "dog",
+            "form": "road",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7058,28 +4622,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "tired,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "large,",
+            "form": "narrow,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "brown,",
+            "form": "long,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "hungry",
+            "form": "curved",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -7097,25 +4655,19 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "loud",
+            "form": "steep",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
           },
           {
-            "form": "was",
+            "form": "cuts",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "lying",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "by",
+            "form": "through",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7127,7 +4679,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "fireplace,",
+            "form": "mountain,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7151,7 +4703,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "owner.",
+            "form": "driver.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7160,9 +4712,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "tired",
-        "adj2": "hungry",
+        "target_pos": "7",
+        "adj1": "narrow",
+        "adj2": "curved",
         "type": "critical",
         "trial_id": "critical_7_OLD-NOCON"
       },
@@ -7176,7 +4728,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "dog",
+            "form": "road",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7191,28 +4743,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "satiated,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "large,",
+            "form": "straight,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "brown,",
+            "form": "long,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "hungry",
+            "form": "curved",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -7230,25 +4776,19 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "loud",
+            "form": "steep",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
           },
           {
-            "form": "was",
+            "form": "cuts",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "lying",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "by",
+            "form": "through",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7260,7 +4800,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "fireplace,",
+            "form": "mountain,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7284,7 +4824,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "owner.",
+            "form": "driver.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7293,9 +4833,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "satiated",
-        "adj2": "hungry",
+        "target_pos": "7",
+        "adj1": "straight",
+        "adj2": "curved",
         "type": "critical",
         "trial_id": "critical_7_OLD-CON"
       },
@@ -7309,7 +4849,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "dog",
+            "form": "road",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7321,19 +4861,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "was",
+            "form": "cuts",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "lying",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "by",
+            "form": "through",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7345,7 +4879,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "fireplace",
+            "form": "mountain",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7353,29 +4887,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "tired,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "large,",
+            "form": "narrow,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "brown,",
+            "form": "long,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "hungry",
+            "form": "curved",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -7393,7 +4921,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "loud,",
+            "form": "steep,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -7417,7 +4945,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "owner.",
+            "form": "driver.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7426,9 +4954,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "13",
-        "adj1": "tired",
-        "adj2": "hungry",
+        "target_pos": "11",
+        "adj1": "narrow",
+        "adj2": "curved",
         "type": "critical",
         "trial_id": "critical_7_NEW-NOCON"
       },
@@ -7442,7 +4970,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "dog",
+            "form": "road",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7454,19 +4982,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "was",
+            "form": "cuts",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "lying",
-            "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "by",
+            "form": "through",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7478,7 +5000,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "fireplace",
+            "form": "mountain",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7486,29 +5008,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "satiated,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "large,",
+            "form": "straight,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "brown,",
+            "form": "long,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "hungry",
+            "form": "curved",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -7526,7 +5042,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "loud,",
+            "form": "steep,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -7550,7 +5066,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "owner.",
+            "form": "driver.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7559,9 +5075,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "13",
-        "adj1": "satiated",
-        "adj2": "hungry",
+        "target_pos": "11",
+        "adj1": "straight",
+        "adj2": "curved",
         "type": "critical",
         "trial_id": "critical_7_NEW-CON"
       }
@@ -7580,7 +5096,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "road",
+            "form": "shop",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7595,28 +5111,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "narrow,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "paved,",
+            "form": "small,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "long,",
+            "form": "local,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "curved",
+            "form": "open",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -7634,19 +5144,19 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "steep",
+            "form": "quiet",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
           },
           {
-            "form": "cuts",
+            "form": "sits",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "through",
+            "form": "on",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7658,7 +5168,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "mountain,",
+            "form": "corner,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7682,7 +5192,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "driver.",
+            "form": "postman.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7691,9 +5201,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "narrow",
-        "adj2": "curved",
+        "target_pos": "7",
+        "adj1": "small",
+        "adj2": "open",
         "type": "critical",
         "trial_id": "critical_8_OLD-NOCON"
       },
@@ -7707,7 +5217,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "road",
+            "form": "shop",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7722,28 +5232,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "straight,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "paved,",
+            "form": "closed,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "long,",
+            "form": "local,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "curved",
+            "form": "open",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -7761,19 +5265,19 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "steep",
+            "form": "quiet",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
           },
           {
-            "form": "cuts",
+            "form": "sits",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "through",
+            "form": "on",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7785,7 +5289,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "mountain,",
+            "form": "corner,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7809,7 +5313,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "driver.",
+            "form": "postman.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7818,9 +5322,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "straight",
-        "adj2": "curved",
+        "target_pos": "7",
+        "adj1": "closed",
+        "adj2": "open",
         "type": "critical",
         "trial_id": "critical_8_OLD-CON"
       },
@@ -7834,7 +5338,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "road",
+            "form": "shop",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7846,13 +5350,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "cuts",
+            "form": "sits",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "through",
+            "form": "on",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7864,7 +5368,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "mountain",
+            "form": "corner",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7872,29 +5376,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "narrow,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "paved,",
+            "form": "small,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "long,",
+            "form": "local,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "curved",
+            "form": "open",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -7912,7 +5410,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "steep,",
+            "form": "quiet,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -7936,7 +5434,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "driver.",
+            "form": "postman.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7945,9 +5443,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "12",
-        "adj1": "narrow",
-        "adj2": "curved",
+        "target_pos": "11",
+        "adj1": "small",
+        "adj2": "open",
         "type": "critical",
         "trial_id": "critical_8_NEW-NOCON"
       },
@@ -7961,7 +5459,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "road",
+            "form": "shop",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7973,13 +5471,13 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "cuts",
+            "form": "sits",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "through",
+            "form": "on",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7991,7 +5489,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "mountain",
+            "form": "corner",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -7999,29 +5497,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "straight,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "paved,",
+            "form": "closed,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "long,",
+            "form": "local,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "curved",
+            "form": "open",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -8039,7 +5531,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "steep,",
+            "form": "quiet,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -8063,7 +5555,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "driver.",
+            "form": "postman.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8072,9 +5564,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "12",
-        "adj1": "straight",
-        "adj2": "curved",
+        "target_pos": "11",
+        "adj1": "closed",
+        "adj2": "open",
         "type": "critical",
         "trial_id": "critical_8_NEW-CON"
       }
@@ -8093,7 +5585,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "shop",
+            "form": "soup",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8108,28 +5600,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "small,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "local,",
+            "form": "fresh,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "quiet,",
+            "form": "creamy,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "open",
+            "form": "cold",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -8147,19 +5633,25 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "crowded",
+            "form": "delicious",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
           },
           {
-            "form": "sits",
+            "form": "was",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "on",
+            "form": "served",
+            "lbr_before": false,
+            "lbr_after": false,
+            "region": "0"
+          },
+          {
+            "form": "at",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8171,7 +5663,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "corner,",
+            "form": "table,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8195,7 +5687,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "postman.",
+            "form": "waiter.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8204,9 +5696,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "small",
-        "adj2": "open",
+        "target_pos": "7",
+        "adj1": "fresh",
+        "adj2": "cold",
         "type": "critical",
         "trial_id": "critical_9_OLD-NOCON"
       },
@@ -8220,7 +5712,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "shop",
+            "form": "soup",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8235,28 +5727,22 @@ var critical_items = [
             "form": "is",
             "lbr_before": false,
             "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "closed,",
-            "lbr_before": false,
-            "lbr_after": false,
             "region": "contrast"
           },
           {
-            "form": "local,",
+            "form": "hot,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "quiet,",
+            "form": "creamy,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "open",
+            "form": "cold",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -8274,19 +5760,25 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "crowded",
+            "form": "delicious",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
           },
           {
-            "form": "sits",
+            "form": "was",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "on",
+            "form": "served",
+            "lbr_before": false,
+            "lbr_after": false,
+            "region": "0"
+          },
+          {
+            "form": "at",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8298,7 +5790,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "corner,",
+            "form": "table,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8322,7 +5814,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "postman.",
+            "form": "waiter.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8331,9 +5823,9 @@ var critical_items = [
         "question": "",
         "correct_answer": "",
         "incorrect_answer": "",
-        "target_pos": "8",
-        "adj1": "closed",
-        "adj2": "open",
+        "target_pos": "7",
+        "adj1": "hot",
+        "adj2": "cold",
         "type": "critical",
         "trial_id": "critical_9_OLD-CON"
       },
@@ -8347,7 +5839,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "shop",
+            "form": "soup",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8359,13 +5851,19 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "sits",
+            "form": "was",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "on",
+            "form": "served",
+            "lbr_before": false,
+            "lbr_after": false,
+            "region": "0"
+          },
+          {
+            "form": "at",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8377,7 +5875,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "corner",
+            "form": "table",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8385,29 +5883,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "small,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "local,",
+            "form": "fresh,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "quiet,",
+            "form": "creamy,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "open",
+            "form": "cold",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -8425,7 +5917,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "crowded,",
+            "form": "delicious,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -8449,7 +5941,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "postman.",
+            "form": "waiter.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8459,8 +5951,8 @@ var critical_items = [
         "correct_answer": "",
         "incorrect_answer": "",
         "target_pos": "12",
-        "adj1": "small",
-        "adj2": "open",
+        "adj1": "fresh",
+        "adj2": "cold",
         "type": "critical",
         "trial_id": "critical_9_NEW-NOCON"
       },
@@ -8474,7 +5966,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "shop",
+            "form": "soup",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8486,13 +5978,19 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "sits",
+            "form": "was",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "on",
+            "form": "served",
+            "lbr_before": false,
+            "lbr_after": false,
+            "region": "0"
+          },
+          {
+            "form": "at",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8504,7 +6002,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "corner",
+            "form": "table",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8512,29 +6010,23 @@ var critical_items = [
           {
             "form": "is",
             "lbr_before": false,
-            "lbr_after": false,
-            "region": "0"
-          },
-          {
-            "form": "closed,",
-            "lbr_before": false,
             "lbr_after": true,
             "region": "contrast"
           },
           {
-            "form": "local,",
+            "form": "hot,",
             "lbr_before": true,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "quiet,",
+            "form": "creamy,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
           },
           {
-            "form": "open",
+            "form": "cold",
             "lbr_before": false,
             "lbr_after": false,
             "region": "critical"
@@ -8552,7 +6044,7 @@ var critical_items = [
             "region": "spillover_2"
           },
           {
-            "form": "crowded,",
+            "form": "delicious,",
             "lbr_before": false,
             "lbr_after": false,
             "region": "spillover_3"
@@ -8576,7 +6068,7 @@ var critical_items = [
             "region": "0"
           },
           {
-            "form": "postman.",
+            "form": "waiter.",
             "lbr_before": false,
             "lbr_after": false,
             "region": "0"
@@ -8586,8 +6078,8 @@ var critical_items = [
         "correct_answer": "",
         "incorrect_answer": "",
         "target_pos": "12",
-        "adj1": "closed",
-        "adj2": "open",
+        "adj1": "hot",
+        "adj2": "cold",
         "type": "critical",
         "trial_id": "critical_9_NEW-CON"
       }
@@ -8733,7 +6225,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_17_PROVO"
+    "trial_id": "filler_13_PROVO"
   },
   {
     "condition": "PROVO",
@@ -8854,7 +6346,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_18_PROVO"
+    "trial_id": "filler_14_PROVO"
   },
   {
     "condition": "PROVO",
@@ -8987,7 +6479,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_19_PROVO"
+    "trial_id": "filler_15_PROVO"
   },
   {
     "condition": "PROVO",
@@ -9138,7 +6630,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_20_PROVO"
+    "trial_id": "filler_16_PROVO"
   },
   {
     "condition": "PROVO",
@@ -9271,7 +6763,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_21_PROVO"
+    "trial_id": "filler_17_PROVO"
   },
   {
     "condition": "PROVO",
@@ -9392,1217 +6884,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_22_PROVO"
-  },
-  {
-    "condition": "PROVO",
-    "words": [
-      {
-        "form": "Greg",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Anderson,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "considered",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "a",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "key",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "witness",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "by",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "the",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "prosecution,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "vowed",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "he",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "wouldn't",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "testify",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "when",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "served",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "a",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "subpoena",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "last",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "week.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "Was Greg Anderson asked to testify?",
-    "correct_answer": "Yes",
-    "incorrect_answer": "No",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_23_PROVO"
-  },
-  {
-    "condition": "PROVO",
-    "words": [
-      {
-        "form": "Owls",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "are",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "more",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "flexible",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "than",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "humans",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "because",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "a",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "bird's",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "head",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "is",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "only",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "connected",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "by",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "one",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "socket",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "pivot.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "Are humans less flexible than owls?",
-    "correct_answer": "Yes",
-    "incorrect_answer": "No",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_24_PROVO"
-  },
-  {
-    "condition": "PROVO",
-    "words": [
-      {
-        "form": "Buck",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "did",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "not",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "like",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "it,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "but",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "he",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "bore",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "up",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "well",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "the",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "work,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "taking",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "pride",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "in",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "it.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "How did Buck deal with his job?",
-    "correct_answer": "He carried on",
-    "incorrect_answer": "He quit",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_25_PROVO"
-  },
-  {
-    "condition": "PROVO",
-    "words": [
-      {
-        "form": "These",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "days,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "neuroscience",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "is",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "beginning",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "catch",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "up",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "musicians",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "who",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "practice",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "mentally.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "Is neuroscience making progress in understanding musicians?",
-    "correct_answer": "Yes",
-    "incorrect_answer": "No",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_26_PROVO"
-  },
-  {
-    "condition": "PROVO",
-    "words": [
-      {
-        "form": "Hybrid",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "vehicles",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "have",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "a",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "halo",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "that",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "makes",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "owners",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "feel",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "righteous",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "and",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "their",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "neighbors",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "feel",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "guilty",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "for",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "not",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "doing",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "as",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "much",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "save",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "the",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "planet.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "Why would the neighbors feel inferior?",
-    "correct_answer": "Their cars are not as eco-friendly",
-    "incorrect_answer": "They are not as rich",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_27_PROVO"
-  },
-  {
-    "condition": "PROVO",
-    "words": [
-      {
-        "form": "Binge",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "drinking",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "may",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "not",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "necessarily",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "kill",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "or",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "even",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "damage",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "brain",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "cells,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "as",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "commonly",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "thought,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "a",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "new",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "animal",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "study",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "suggests.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "Do most people think binge drinking damages brain cells?",
-    "correct_answer": "Yes",
-    "incorrect_answer": "No",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_28_PROVO"
-  },
-  {
-    "condition": "PROVO",
-    "words": [
-      {
-        "form": "When",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "attacked,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "a",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "skunk's",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "natural",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "inclination",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "is",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "turn",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "around,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "lick",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "its",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "tail",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "and",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "spray",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "a",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "noxious",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "scent.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "Are skunks inclined to face forward when attacked?",
-    "correct_answer": "No",
-    "incorrect_answer": "Yes",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_29_PROVO"
-  },
-  {
-    "condition": "PROVO",
-    "words": [
-      {
-        "form": "All",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "that",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "the",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "brain",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "has",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "work",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "with",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "are",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "imperfect",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "incoming",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "electrical",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "impulses",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "announcing",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "that",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "things",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "are",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "happening.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "Are electrical singals in our brain always correct?",
-    "correct_answer": "No",
-    "incorrect_answer": "Yes",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_30_PROVO"
-  },
-  {
-    "condition": "PROVO",
-    "words": [
-      {
-        "form": "There",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "often",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "seems",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "be",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "more",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "diving",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "in",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "soccer",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "than",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "in",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "the",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Summer",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Olympics.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "Do people dive in soccer?",
-    "correct_answer": "Yes",
-    "incorrect_answer": "No",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_31_PROVO"
-  },
-  {
-    "condition": "PROVO",
-    "words": [
-      {
-        "form": "Susan",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "B.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Anthony",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "spent",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "nearly",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "sixty",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "years",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "of",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "her",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "life",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "devoted",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "the",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "cause",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "of",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "social",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "justice",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "and",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "equality",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "for",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "all.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "How would one describe Susan?",
-    "correct_answer": "Philanthropic",
-    "incorrect_answer": "Selfish",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_32_PROVO"
+    "trial_id": "filler_18_PROVO"
   },
   {
     "condition": "UNGRAMM",
@@ -10639,7 +6921,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_33_UNGRAMM"
+    "trial_id": "filler_19_UNGRAMM"
   },
   {
     "condition": "UNGRAMM",
@@ -10676,7 +6958,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_34_UNGRAMM"
+    "trial_id": "filler_20_UNGRAMM"
   },
   {
     "condition": "UNGRAMM",
@@ -10725,7 +7007,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_35_UNGRAMM"
+    "trial_id": "filler_21_UNGRAMM"
   },
   {
     "condition": "UNGRAMM",
@@ -10774,7 +7056,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_36_UNGRAMM"
+    "trial_id": "filler_22_UNGRAMM"
   },
   {
     "condition": "UNGRAMM",
@@ -10823,7 +7105,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_37_UNGRAMM"
+    "trial_id": "filler_23_UNGRAMM"
   },
   {
     "condition": "UNGRAMM",
@@ -10872,527 +7154,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_38_UNGRAMM"
-  },
-  {
-    "condition": "UNGRAMM",
-    "words": [
-      {
-        "form": "Kelly",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "was",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "praised",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Kelly.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "",
-    "correct_answer": "",
-    "incorrect_answer": "",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_39_UNGRAMM"
-  },
-  {
-    "condition": "UNGRAMM",
-    "words": [
-      {
-        "form": "Tommy",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "was",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "punished",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Tommy.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "",
-    "correct_answer": "",
-    "incorrect_answer": "",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_40_UNGRAMM"
-  },
-  {
-    "condition": "UNGRAMM",
-    "words": [
-      {
-        "form": "Expect",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "receive,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Sarah",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "did",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "a",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "good",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "grade.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "",
-    "correct_answer": "",
-    "incorrect_answer": "",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_41_UNGRAMM"
-  },
-  {
-    "condition": "UNGRAMM",
-    "words": [
-      {
-        "form": "Try",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "solve,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Martin",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "did",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "the",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "math",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "problem.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "",
-    "correct_answer": "",
-    "incorrect_answer": "",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_42_UNGRAMM"
-  },
-  {
-    "condition": "UNGRAMM",
-    "words": [
-      {
-        "form": "Promise",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "wash,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Neal",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "did",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "the",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "car.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "",
-    "correct_answer": "",
-    "incorrect_answer": "",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_43_UNGRAMM"
-  },
-  {
-    "condition": "UNGRAMM",
-    "words": [
-      {
-        "form": "Forget",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "walk,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Susan",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "did",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "the",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "dog.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "",
-    "correct_answer": "",
-    "incorrect_answer": "",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_44_UNGRAMM"
-  },
-  {
-    "condition": "UNGRAMM",
-    "words": [
-      {
-        "form": "Hope",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "attend,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "John",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "did",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "college.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "",
-    "correct_answer": "",
-    "incorrect_answer": "",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_45_UNGRAMM"
-  },
-  {
-    "condition": "UNGRAMM",
-    "words": [
-      {
-        "form": "Manage",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "pass,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Tim",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "did",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "his",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "exam.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "",
-    "correct_answer": "",
-    "incorrect_answer": "",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_46_UNGRAMM"
-  },
-  {
-    "condition": "UNGRAMM",
-    "words": [
-      {
-        "form": "Start",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "eat,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Ava",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "did",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "the",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "dinner.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "",
-    "correct_answer": "",
-    "incorrect_answer": "",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_47_UNGRAMM"
-  },
-  {
-    "condition": "UNGRAMM",
-    "words": [
-      {
-        "form": "Care",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "to",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "ask,",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "Aaron",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "did",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "the",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      },
-      {
-        "form": "question.",
-        "lbr_before": false,
-        "lbr_after": false,
-        "region": "0"
-      }
-    ],
-    "question": "",
-    "correct_answer": "",
-    "incorrect_answer": "",
-    "target_pos": "0",
-    "adj1": "",
-    "adj2": "",
-    "type": "filler",
-    "trial_id": "filler_48_UNGRAMM"
+    "trial_id": "filler_24_UNGRAMM"
   },
   {
     "condition": "PRACTICE1",
@@ -11477,7 +7239,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_49_PRACTICE1"
+    "trial_id": "filler_25_PRACTICE1"
   },
   {
     "condition": "PRACTICE2",
@@ -11586,7 +7348,7 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_50_PRACTICE2"
+    "trial_id": "filler_26_PRACTICE2"
   },
   {
     "condition": "PRACTICE3",
@@ -11641,6 +7403,6 @@ var fillers = [
     "adj1": "",
     "adj2": "",
     "type": "filler",
-    "trial_id": "filler_51_PRACTICE3"
+    "trial_id": "filler_27_PRACTICE3"
   }
 ];
